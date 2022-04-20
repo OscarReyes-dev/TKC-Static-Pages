@@ -1,0 +1,113 @@
+
+
+/*---------- Footer Section -----------*/
+
+footer .social-Links-Text{
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 600 ;
+  }
+  footer .social-Links {
+    padding-top: 3em;
+    border-top: 1px solid rgb(231, 231, 231) ;
+    border-left: none;
+  }
+  footer .social-Links img{
+    width: 30px;
+  }
+  footer .social-Links ul{
+    display: flex;
+    justify-content: center;
+    padding: 0em;
+  }
+  footer .social-Links li{
+    padding: 0 20px;
+  }
+  footer .links-container{
+    /* border-top: 1px solid rgb(231, 231, 231) ;   */
+  }
+  footer .internal-Links{
+    display: flex;
+    margin-bottom: 3em;
+    text-align: center;
+  }
+  footer .block-title{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1em;
+  }
+  footer .sub-Links {
+   padding: 0em;
+  }
+  footer .sub-Links li{
+  margin-bottom: 1em;
+  letter-spacing: 0em;
+  }
+  footer .links{
+    margin-top: 5em;
+    margin-bottom: 5em;
+  }
+  footer .end-Links-Container{
+    margin-bottom: 5em;
+  }
+  footer .end-Links{
+    justify-content: center;
+  }
+  footer .end-Link{
+    padding: 0 20px;
+  }
+
+
+
+
+
+
+      /* +++++++++    Media Queries     ++++++++++ */
+
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    
+
+/*---------- Footer Section -----------*/
+footer .quick-Links {
+    padding-bottom: 2em;
+}
+
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+/*---------- Footer Section -----------*/
+footer .links{
+    max-width: 600px;
+}
+
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+
+
+/*---------- Footer Section -----------*/
+
+footer .internal-Links{
+    display: block;
+}
+footer .quick-Links-Row{
+    display: block;
+}
+footer .end-Links{
+    display: block;
+    text-align: center;
+}
+footer .social-Links li{
+    padding: 0 10px;
+}
+
+}

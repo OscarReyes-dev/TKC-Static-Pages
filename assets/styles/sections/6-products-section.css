@@ -1,0 +1,349 @@
+/*---------- Six Products Section -----------*/
+
+
+
+
+
+
+
+
+
+
+.coll-header--row{
+    padding: .5em;
+}
+.coll-Name{
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.coll-Link--Col{
+    text-align: right;
+}
+.coll-Link{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    
+}
+.coll-Link:hover{
+    color: rgb(255, 174, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.products-collection{
+    width: 100%;
+    padding: 4em 0em;
+    text-decoration: none;
+  }
+  .products-collection .Section-title-container{
+    display: inline;
+  }
+  .products-collection .Section-title-container .section-title {
+    /* text-align: center;
+    padding: 2em; */
+    text-align: center;
+    padding: 4em 2em 0em;
+  }
+  .products-collection .top-text{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    font-size: 35px;
+    font-weight: 200;
+    margin-bottom: .5em;
+    text-transform: uppercase;
+  }
+  .products-collection .bottom-text{
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+
+
+
+
+
+
+
+
+
+  .products-collection .container{
+    /* padding: 50px 0px 30px; */
+    padding: 2em 1em;
+    /* max-width: 100%; */
+  }
+  .products-collection .product {
+    margin-bottom: 3em;
+  }
+  .products-collection  .product-block {
+    text-decoration: none;
+  }
+  .products-collection .grid-item{
+    height: 100%;
+    min-width: 100%;
+  }
+  .products-collection .product-img{
+   text-align: center;
+   position: relative;
+  }
+  .products-collection .img{
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+  }
+
+
+
+  .products-collection  .overlay{
+    position: absolute;
+    border-radius: 25px;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    min-height: 34%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.23);
+  }
+  .products-collection .product-img:hover .overlay{
+    opacity: 1;
+   }
+  .products-collection  .product-block .svg-Image{
+    display: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .item--description{
+    padding: 20px 0px 30px 0px;
+    max-height: 10rem;
+    overflow-y: hidden;
+    text-align: center ;
+  }
+  .collection--title {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #000000;
+    padding-bottom: 5px;
+  }
+  .product--item-title{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 22px;
+    overflow: hidden;
+    max-height: 98px;
+  }
+  .product--item-price{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 22px;
+    overflow: hidden;
+    max-height: 98px;
+  }
+   .prod--title{
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    font-size: 16px;
+    color: #000000;
+    line-height: 20px;
+    overflow: hidden;
+    min-height: 35px;
+  }
+  .products-collection .textbox-button{
+    width: 100%;
+  }
+  .add-To-Cart--Btn{
+    padding: 16px 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid black;
+    line-height: 15px;
+    width: 100%;
+  }
+  .add-To-Cart--Btn a{
+    color: #000;
+  }
+  .products-collection .add-To-Cart--Btn {
+    color: black;
+  }
+  
+  
+  /* Button Hover */
+   .add-To-Cart--Btn:hover{
+    /* border-radius: 1px; */
+    background-color:rgb(41, 41, 41);
+    color: white;
+    border: 2px solid black;
+    transition: .3s ease;
+  }
+  .add-To-Cart--Btn:hover a{
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  
+  .products-collection button.view-Product{
+    width: 100%;
+    margin-top: 0em;
+    border: none;
+    height: 45px;
+  }
+  .products-collection .button-Background--ColorMatch{
+    background-color: #f8f8f8;;
+    text-align: center;
+  }
+  
+  .products-collection .quick-Add--symbol{
+    position: relative;
+    bottom: 1px;
+  }
+  
+
+      /* +++++++++    Media Queries     ++++++++++ */
+
+    
+
+    
+    
+    /* Small devices (landscape phones, less than 768px) */
+    @media (max-width: 767.98px) {
+    
+
+    .products-collection .Section-title-container .section-title {
+      /* text-align: center;
+      padding: 2em; */
+      text-align: center;
+      padding: 1em 0em 2em;
+    }
+
+    .products-collection .top-text{
+      margin-bottom: 0  nem;
+    }
+      
+    /*---------- Six Products Section -----------*/
+    .products-collection{
+      /* padding: 4em .5em; */
+      overflow: hidden;
+    }
+    .products-Container{
+        padding: 0em;
+    }
+    .products-collection .container{
+      padding: 1em .5em;
+    }
+
+
+    }
+    
+    
+    /* Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) {
+
+        .coll-header--row{
+            padding: .5em;
+        }
+        .coll-Name{
+            font-size: 15px;
+        }
+        .coll-Link--Col{
+            text-align: right;
+        }
+        .coll-Link{
+            font-size: 14px;
+        }
+        
+
+
+
+    
+        /*---------- Six Products Section -----------*/
+    .products-collection .container{
+      /* padding: 0rem; */
+    }
+    .products-collection .product {
+      margin-bottom: 3em;
+  }
+    .products-collection .section-title{
+      padding: 0 10px 3em 10px;
+    }
+    .products-collection .img{
+      border-radius: 15px;
+    }
+    .products-collection img{
+      border-radius: 15px;
+    }
+    .products-collection .overlay{
+      border-radius: 15px;
+    }
+
+
+
+    .products-collection .top-text{
+      font-size: 25px;
+    }
+    .products-collection .bottom-text{
+      font-size: 20px;
+    }
+    .products-collection .shop-Collection--Btn{
+      width: 90%;
+      padding: 15px;
+    }
+    
+    
+    .products-collection .add-To-Cart--Btn {
+      padding: 10px 15px;
+    }
+    /* .products-collection .centered--button .add-To-Cart--Btn:hover {
+      padding: 5px 10px;
+    } */
+    
+
+    
+    }
+      
+

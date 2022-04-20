@@ -1,0 +1,63 @@
+
+
+/*---------- Footer Section -----------*/
+
+.footer-Container.container-fluid{
+    padding: 0px;
+
+    
+  }
+  .email-Signup{
+    padding: 5em 0em;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(231, 231, 231) ;
+    border-bottom: 1px solid rgb(231, 231, 231) ;
+  }
+.form__subscribe-header{
+    text-transform: uppercase;
+    width: 75%;
+    font-size: 17px;
+    font-weight: 600;
+  }
+.input-container{
+    display: flex;
+    padding: 2em 0em;
+    justify-content: center;
+  }
+.input-container .input-box{
+    width: 300px;
+    /* padding-right: 10px; */
+  }
+   #newsletter{
+    width: 100%;
+    /* border: 1px solid rgb(202, 202, 202); */
+    border-radius: 15px 0px 0px 15px;
+    padding-left: 1em;
+    height: 45px;
+  }
+.button{
+  border: none;
+  border-radius: 0px 15px 15px 0px;
+  padding: 0 1em;
+  font-weight: 700;
+  font-size: 14px;
+  }
+
+  
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+
+
+/*---------- Footer Section -----------*/
+.input-container .input-box{
+    width: 60%;
+}
+
+}

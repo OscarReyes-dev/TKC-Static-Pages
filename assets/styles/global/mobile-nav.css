@@ -1,0 +1,233 @@
+
+
+    .sidebar-navigation nav header {
+        width : 100%;
+        height : auto;
+        background-color : white;
+        z-index : 5;
+        }
+        .sidebar-navigation nav header .top-row .grid-container {
+        display : grid;
+        grid-template-columns : 20% 60% 20%;
+        min-height : 70px;
+        width : 100%;
+        background : rgb(255, 255, 255);
+        }
+        .sidebar-navigation nav header .top-row .grid-container .item-1 .hamburger {
+        cursor : pointer;
+        }
+        .sidebar-navigation nav header .top-row .grid-container .burger div {
+        width : 25px;
+        height : 2px;
+        margin : 6px;
+        background-color : rgb(0, 0, 0);
+        }
+        .sidebar-navigation nav header .top-row .grid-container .item-2 {
+        text-align : center;
+        text-decoration : none;
+        font-family : 'Roboto', sans-serif;
+        font-weight : 300;
+        font-size : 35px;
+        text-transform : uppercase;
+        letter-spacing : -2px;
+        padding : 5px;
+        }
+        .sidebar-navigation nav header .top-row .grid-container .item-2 .desktop-logo {
+        line-height : 23px;
+        padding : 16px 0 5px;
+        }
+        .sidebar-navigation nav header .top-row .grid-container .item-2 .desktop-logo span {
+        font-size : 25px;
+        }
+        .sidebar-navigation nav header .top-row .grid-container .item-2 .mobile-menu-logo {
+        display : none;
+        }
+        .sidebar-navigation nav header .top-row .grid-container .item-2 a {
+        color : rgb(255, 255, 255);
+        text-decoration : none;
+        }
+        .sidebar-navigation nav header .top-row .grid-container .item-3 {
+        justify-content : center;
+        display : inline-block;
+        padding-top : 15px;
+        padding-left : 15px;
+        }
+        .sidebar-navigation nav header .top-row .grid-container .item-3 .icons {
+        float : right;
+        justify-content : center;
+        }
+        .sidebar-navigation nav header .top-row .grid-container .item-3 .icons .icons-list {
+        display : flex;
+        }
+        .sidebar-navigation nav header .top-row .grid-container .item-3 .icons .icons-list li {
+        padding : 0 20px;
+        }
+        .sidebar-navigation nav header .top-row .grid-container .item-3 .icons .icons-list li a {
+        font-size : 23px;
+        }
+        .sidebar-navigation header {
+        position : unset;
+        }
+        .sidebar-navigation header .item-2 a {
+        letter-spacing : -2px;
+        font-size : 35px;
+        }
+        .parent i {
+        float : right;
+        padding-top : 4px;
+        }
+        .back i {
+        float : left;
+        padding-right : 2rem;
+        padding-top : 4px;
+        }
+        .sidebar-navigation .mobile-Nav {
+        max-width : 100%;
+        }
+        .level-2 li a {
+        text-transform : none;
+        }
+        .back a {
+        text-transform : uppercase;
+        }
+        .level-2 .back a {
+        text-transform : uppercase;
+        }
+        .level-2 .parent a {
+        text-transform : uppercase;
+        }
+        .level-3 li a {
+        text-transform : none;
+        }
+        .sidebar-navigation {
+        display : none;
+        border-right : 1px solid rgb(231, 231, 231);
+        overflow : hidden;
+        bottom : 0;
+        z-index : 6;
+        height : calc(100vh - 57px);
+        top : 57px;
+        position : fixed;
+        transition : 0.3s ease-in-out;
+        width : calc(100vw - 50px);
+        left : calc(-100vw + 50px);
+        transform : translateX(0);
+        z-index : 6;
+        }
+        .sidebar-navigation.open-menu {
+        width : calc(100vw - 0%);
+        left : calc(0px + 0px);
+        }
+        .sidebar-navigation a {
+        color : #000000;
+        text-decoration : none;
+        text-transform : uppercase;
+        letter-spacing : 0.5px;
+        font-weight : 700;
+        font-size : 14px;
+        }
+        .sidebar-navigation nav {
+        position : relative;
+        height : 100%;
+        }
+        .sidebar-navigation nav ul {
+        position : absolute;
+        height : calc(100vh - 57px);
+        top : 0;
+        overflow-y : scroll;
+        overflow-x : hidden;
+        padding : 0 0 15rem 0;
+        width : 100%;
+        background : rgb(255, 255, 255);
+        z-index : 1;
+        }
+        .sidebar-navigation nav ul li {
+        border-bottom : 1px solid rgb(231, 231, 231);
+        }
+        .sidebar-navigation nav ul ul {
+        right : calc(200% + 10px);
+        left : calc(100% + 10px);
+        }
+        .sidebar-navigation nav ul li.back a {
+        color : rgb(255, 255, 255);
+        background-color : rgb(0, 0, 0);
+        font-weight : 700;
+        font-size : 0.8rem;
+        }
+        .sidebar-navigation nav ul li.back a:focus, .sidebar-navigation nav ul li.back a:hover {
+        color : rgb(255, 255, 255);
+        }
+        .sidebar-navigation nav ul li a {
+        padding : 1.5rem 0.75rem;
+        display : block;
+        position : relative;
+        }
+        .sidebar-navigation nav ul li a:focus, .sidebar-navigation nav ul li a:hover {
+        color : rgb(255, 153, 0);
+        }
+        .sidebar-navigation nav ul .active {
+        left : 0;
+        right : 0;
+        }
+        .sidebar-navigation nav ul .active > li > a {
+        opacity : 1;
+        }
+        .sidebar-navigation nav ul.hidden > li > a {
+        opacity : 0;
+        display : none;
+        }
+        .main {
+        position : fixed;
+        top : 0;
+        right : 0;
+        bottom : 0;
+        left : 300px;
+        }
+        .main h1 {
+        font-size : 30px;
+        margin : 30px;
+        }
+      
+  
+
+  
+@media (max-width: 1210.98px) {
+    
+    /* .sidebar-navigation {
+        display : none;
+    } */
+    .sidebar-navigation {
+        display : block;
+        }
+    
+}
+    
+@media (max-width: 991.98px) {
+    
+    .opened-menu {
+    overflow : hidden;
+    }
+    
+    .sidebar-navigation {
+    display : block;
+    }
+    .sidebar-navigation nav ul {
+    height : calc(100vh - 57px);
+    }
+    
+}
+    
+
+    
+@media (max-width: 575.98px) {
+
+    .sidebar-navigation {
+    height : calc(100vh - 57px);
+    top : 57px;
+    background : white;
+    }
+    .sidebar-navigation nav ul {
+    height : calc(100vh - 58px);
+    }
+    
+}   
