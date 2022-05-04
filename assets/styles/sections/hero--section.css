@@ -35,12 +35,12 @@
   }
   .hero-section .hero-grid .hero-style2 .hero-style3 .hero-image-style .img{
     width: 100%;
-    height: 650px;
+    height: 750px;
     position: relative;
     object-fit: cover;
   }
   .hero-section .hero-grid .hero-textbox{
-    grid-area: 3 / 13 / 5 / 25;
+    grid-area: 3 / 3 / 5 / 11;
     opacity: 1;
     align-self: center;
     min-width: 21em;
@@ -82,6 +82,60 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Slide Show */
+
+.product-image{
+  position: absolute;
+left: 0px;
+transform: translateX(0%);
+height: 750px;
+width: 100%;
+object-fit: cover;
+}
+.flickity-prev-next-button {
+  display: none;
+}
+.flickity-page-dots{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       /* +++++++++    Media Queries     ++++++++++ */
 
 /* Large devices (desktops, less than 1200px) */
@@ -90,9 +144,6 @@
     /*---------- Hero Section -----------*/
     .hero-section .hero-grid .hero-textbox .textbox-background{
       padding: 2em 2em 2em;
-    }
-    .hero-section .hero-grid .hero-textbox{
-      grid-area: 3 / 12  / 5 / 25;
     }
     
     }
@@ -149,7 +200,7 @@
       grid-template-rows: 13em 4em 1fr 1.5em auto 2em;
     }
     .hero-section .hero-grid .hero-style2 .hero-style3 .hero-image-style .img{
-      height: 450px;
+      height: 550px;
     }
     .hero-section .hero-grid .hero-textbox{
       grid-area: 2 / 3 / 5 / 25;
