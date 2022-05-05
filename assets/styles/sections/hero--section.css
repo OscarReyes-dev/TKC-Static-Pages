@@ -89,7 +89,7 @@
     bottom: 0;
     z-index: 1;
     /* background: ; */
-    background: linear-gradient(90deg, rgb(0, 0, 0) 5%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(70deg, rgb(0, 0, 0) 15%, rgba(255,255,255,0) 70%);
   }
 
 
@@ -242,7 +242,7 @@
     
     /*---------- Hero Section -----------*/
     .hero-section .hero-grid {
-      grid-template-rows: 7em 4em 1fr 1.5em auto 2em;
+      grid-template-rows: 13em 2em 1fr 1.5em auto 0em;
     }
     /* .hero-section .hero-grid .hero-style2 .hero-style3 .hero-image-style .img{
       height: 450px;
@@ -266,6 +266,7 @@
     height: 60vh;
     } 
     .hero-section .overlay {
+      background: linear-gradient(70deg, rgb(0, 0, 0) 15%, rgba(255,255,255,0) 70%);
       height: 60vh;
     }
     .hero-section .flickity-viewport{
@@ -281,18 +282,18 @@
     }
     .hero-section .top-Text{
       color: white;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 900;
       text-decoration: underline dotted;
     }
     .hero-section .main-Text{
       font-weight: 800;
-      font-size: 35px;
+      font-size: 30px;
       color: white;
     }
     .hero-section .lower-Text{
       font-weight: 500;
-      font-size: 18px;
+      font-size: 16px;
       color: white;
     }
 
