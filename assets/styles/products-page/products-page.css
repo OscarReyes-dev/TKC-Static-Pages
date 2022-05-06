@@ -38,7 +38,7 @@
   .results-Header--onLoad{
     transform: translateY(0px);
     transition: transform 0.3s ease-in-out 0s;
-    top: 91px;
+    top: 90px;
   }
   /* .scrollUp{
     top: 104px;

@@ -22,8 +22,8 @@
         <link rel="stylesheet" href="/assets/styles/global/global.css">
         <!-- Header CSS -->
         <link rel="stylesheet" href="/assets/styles/global/header.css">
-        <!-- Hero CSS -->
-        <link rel="stylesheet" href="/assets/styles/sections/hero--section.css">
+        <!-- Collection Hero CSS -->
+        <link rel="stylesheet" href="/assets/styles/products-page/collection-hero.css">
         <!-- 6 Products Section CSS -->
         <link rel="stylesheet" href="/assets/styles/sections/6-products-section.css">
         <!-- 2 Collections Section CSS -->
@@ -868,42 +868,48 @@
     <!-- Main Content -->
     <div class="content-for-layout">
 
-        <!-- Hero Section -->
-        <div class="hero-section">
-            <div class="hero-grid">
-            
-            <div class="hero-style2">
-                <div class="hero-style3">
-                <div class="hero-image-style">                                                          
-                        <div>
-                        <img 
-                        class="img"
-                        class="hero"
-                        srcset=""
-                        src="/assets/images/product-images/newbg5.jpg"
-                        loading="lazy"
-                        alt=""
-                        >
-                        </div>
-                </div>
-                </div>
-            </div>
-        
-            <div class="hero-textbox">
-                <div class="textbox-background ">
-                    <div class="top-Text">Newest Release</div>
-                    <h1 class="main-Text">Vor-Tech XN-657</h1>
-                    <p class="lower-Text">Limited Edition</p>
-                        <div class="textbox-button">
-                            <button aria-label="Shop Collection" class="shop-Collection--Btn">
-                                <a href="/main-product.html" class="link-padding">View Now</a>
-                            </button>
-                        </div>  
-                </div>
-            </div> 
-            </div>
-            <div class="transparent-bg"></div>
-        </div>
+        <!-- Collection Hero -->
+        <div class="collection-hero">
+          <div class="hero-grid">
+          
+          <div class="hero-style2">
+              <div class="hero-style3">
+                  <div class="hero-image-style">                                                          
+                      <div class="overlay-container">
+                          <div class="overlay"></div>
+
+
+                            <!-- Optional: If User Chooses to replace Carousel with static image -->
+                            <img 
+                            class="img"
+                            class="hero"
+                            srcset=""
+                            src="/assets/images/product-images/collection-hero.jpg"
+                            loading="lazy"
+                            alt=""
+                            >
+
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      
+          <div class="hero-textbox">
+              <div class="textbox-background ">
+                  <div class="top-Text">Shopping</div>
+                  <h1 class="main-Text">Vor-Tech Keyboards</h1>
+                  <!-- <p class="lower-Text">Limited Edition</p> -->
+                      <!-- <div class="textbox-button">
+                          <button aria-label="Shop Collection" class="shop-Collection--Btn">
+                              <a href="/main-product.html" class="link-padding">View Now</a>
+                          </button>
+                      </div>   -->
+              </div>
+          </div> 
+          </div>
+          <div class="transparent-bg"></div>
+      </div>
 
 
 
@@ -944,24 +950,17 @@
 <!-- Mobile FilterBox -->
 <section class="mobile-Filterbox">
     <div class="offcanvas offcanvas-start" tabindex="-1" id="MobileFilterBox" aria-labelledby="offcanvasExampleLabel">
-
-
       <div class="accordion" id="accordionPanelsStayOpenExample">
         <!-- Filter Header  -->
-
         <div class="filters-Header-Container">
           <div class="filters-Header">
             Filters
           </div>
         </div>
-
-
         <!-- Chosen Filters -->
-
-
         <div class="filter-Container container-fluid">
+          
           <div class="row">
-
             <div class="form-select-col col">
               <div class="product-Sorting">
                 <span class="sort-Menu-Title">Sort By:</span>
@@ -977,7 +976,6 @@
               </div>
             </div>
           </div>
-
           
           <!-- Filter: Collection Variants -->
           <div class="accordion-item">
@@ -1360,663 +1358,1320 @@
 
 
 
-
+                <!-- 6 products collection from Home Page -->
                 <div class="products-collection">
-                  <div class="prod-coll-cont container">
-                    <div class="products-Row row row-cols-2 row-cols-sm-2 row-cols-md-3 ">
-                      <div class="product col">
-                        <a href="" class="product-block">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <!-- <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy"> -->
-                              <img src="/assets/images/product-images/new-prod1.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
-                                </div>
-                              </div>
-                            </div>
               
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Lava 2WR</div>
+              
+                  <div class="products-Container container">
+                      <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 ">
+                          <div class="product col">
+                              <div class="produt-container">
+      
+                                  <a href="/main-product.html" class="product-block">
+                                      <div class="grid-item">
+                                          <div class="product-img">
+                                              <img 
+                                                  srcset=""
+                                                  src="/assets/images/product-images/new-prod1.jpg"
+                                                  sizes=""
+                                                  alt=""
+                                                  loading="lazy"
+                                                  class="img"
+                                              >
+                                              <div class="overlay">
+                                                  <div class="svg-Image">
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="item--description">
+                                              <div class="collection--title">Vor-Tech</div>
+                                              <div class="product--item-title">
+                                                  <div class="prod--title">Sunset XN-657</div>
+                                              </div>
+                                              <div class="product--item-price">$259.00</div>
+                                          </div>
+                                      </div>
+                                  </a>
+                              
+                                  <div class="add-Product-To-Cart--btn">
+                                      <div class="centered--button">
+                                      <div class="textbox-button">
+                                      <a href="/main-product.html" class="icon" >
+                                          <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                          View
+                                          </button>
+                                      </a>
+                                      </div>
+                                      </div>
+                                  </div>
+                                      
                               </div>
-                              <div class="product--item-price">$280.00</div>
-                            </div>
+                          </div>
+                          <div class="product col">
+                              <div class="produt-container">
+      
+                                  <a href="/main-product.html" class="product-block">
+                                      <div class="grid-item">
+                                          <div class="product-img">
+                                              <img 
+                                                  srcset=""
+                                                  src="/assets/images/product-images/np-3A.jpg"
+                                                  sizes=""
+                                                  alt=""
+                                                  loading="lazy"
+                                                  class="img"
+                                              >
+                                              <div class="overlay">
+                                                  <div class="svg-Image">
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="item--description">
+                                              <div class="collection--title">Vor-Tech</div>
+                                              <div class="product--item-title">
+                                                  <div class="prod--title">Sunset XN-657</div>
+                                              </div>
+                                              <div class="product--item-price">$259.00</div>
+                                          </div>
+                                      </div>
+                                  </a>
+                              
+                                  <div class="add-Product-To-Cart--btn">
+                                      <div class="centered--button">
+                                      <div class="textbox-button">
+                                      <a href="/main-product.html" class="icon" >
+                                          <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                          View
+                                          </button>
+                                      </a>
+                                      </div>
+                                      </div>
+                                  </div>
+                                      
+                              </div>
+                          </div>
+                          <div class="product col">
+                              <div class="produt-container">
+      
+                                  <a href="/main-product.html" class="product-block">
+                                      <div class="grid-item">
+                                          <div class="product-img">
+                                              <img 
+                                                  srcset=""
+                                                  src="/assets/images/product-images/new-prod4.jpg"
+                                                  sizes=""
+                                                  alt=""
+                                                  loading="lazy"
+                                                  class="img"
+                                              >
+                                              <div class="overlay">
+                                                  <div class="svg-Image">
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="item--description">
+                                              <div class="collection--title">Vor-Tech</div>
+                                              <div class="product--item-title">
+                                                  <div class="prod--title">Sunset XN-657</div>
+                                              </div>
+                                              <div class="product--item-price">$259.00</div>
+                                          </div>
+                                      </div>
+                                  </a>
+                              
+                                  <div class="add-Product-To-Cart--btn">
+                                      <div class="centered--button">
+                                      <div class="textbox-button">
+                                      <a href="/main-product.html" class="icon" >
+                                          <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                          View
+                                          </button>
+                                      </a>
+                                      </div>
+                                      </div>
+                                  </div>
+                                      
+                              </div>
+                          </div>
+                          <div class="product col">
+                              <div class="produt-container">
+      
+                                  <a href="/main-product.html" class="product-block">
+                                      <div class="grid-item">
+                                          <div class="product-img">
+                                              <img 
+                                                  srcset=""
+                                                  src="/assets/images/product-images/new-prod2.jpg"
+                                                  sizes=""
+                                                  alt=""
+                                                  loading="lazy"
+                                                  class="img"
+                                              >
+                                              <div class="overlay">
+                                                  <div class="svg-Image">
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="item--description">
+                                              <div class="collection--title">Vor-Tech</div>
+                                              <div class="product--item-title">
+                                                  <div class="prod--title">Sunset XN-657</div>
+                                              </div>
+                                              <div class="product--item-price">$259.00</div>
+                                          </div>
+                                      </div>
+                                  </a>
+                              
+                                  <div class="add-Product-To-Cart--btn">
+                                      <div class="centered--button">
+                                      <div class="textbox-button">
+                                      <a href="/main-product.html" class="icon" >
+                                          <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                          View
+                                          </button>
+                                      </a>
+                                      </div>
+                                      </div>
+                                  </div>
+                                      
+                              </div>
+                          </div>
+                          <div class="product col">
+                              <div class="produt-container">
+      
+                                  <a href="/main-product.html" class="product-block">
+                                      <div class="grid-item">
+                                          <div class="product-img">
+                                              <img 
+                                                  srcset=""
+                                                  src="/assets/images/product-images/new-prod3.jpg"
+                                                  sizes=""
+                                                  alt=""
+                                                  loading="lazy"
+                                                  class="img"
+                                              >
+                                              <div class="overlay">
+                                                  <div class="svg-Image">
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="item--description">
+                                              <div class="collection--title">Vor-Tech</div>
+                                              <div class="product--item-title">
+                                                  <div class="prod--title">Sunset XN-657</div>
+                                              </div>
+                                              <div class="product--item-price">$259.00</div>
+                                          </div>
+                                      </div>
+                                  </a>
+                              
+                                  <div class="add-Product-To-Cart--btn">
+                                      <div class="centered--button">
+                                      <div class="textbox-button">
+                                      <a href="/main-product.html" class="icon" >
+                                          <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                          View
+                                          </button>
+                                      </a>
+                                      </div>
+                                      </div>
+                                  </div>
+                                      
+                              </div>
+                          </div>
+                          <div class="product col">
+                              <div class="produt-container">
+      
+                                  <a href="/main-product.html" class="product-block">
+                                      <div class="grid-item">
+                                          <div class="product-img">
+                                              <img 
+                                                  srcset=""
+                                                  src="/assets/images/product-images/np1.jpg"
+                                                  sizes=""
+                                                  alt=""
+                                                  loading="lazy"
+                                                  class="img"
+                                              >
+                                              <div class="overlay">
+                                                  <div class="svg-Image">
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="item--description">
+                                              <div class="collection--title">Vor-Tech</div>
+                                              <div class="product--item-title">
+                                                  <div class="prod--title">Sunset XN-657</div>
+                                              </div>
+                                              <div class="product--item-price">$259.00</div>
+                                          </div>
+                                      </div>
+                                  </a>
+                              
+                                  <div class="add-Product-To-Cart--btn">
+                                      <div class="centered--button">
+                                      <div class="textbox-button">
+                                      <a href="/main-product.html" class="icon" >
+                                          <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                          View
+                                          </button>
+                                      </a>
+                                      </div>
+                                      </div>
+                                  </div>
+                                      
+                              </div>
+                          </div>
+                          <div class="product col">
+                            <div class="produt-container">
+    
+                                <a href="/main-product.html" class="product-block">
+                                    <div class="grid-item">
+                                        <div class="product-img">
+                                            <img 
+                                                srcset=""
+                                                src="/assets/images/product-images/new-prod1.jpg"
+                                                sizes=""
+                                                alt=""
+                                                loading="lazy"
+                                                class="img"
+                                            >
+                                            <div class="overlay">
+                                                <div class="svg-Image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item--description">
+                                            <div class="collection--title">Vor-Tech</div>
+                                            <div class="product--item-title">
+                                                <div class="prod--title">Sunset XN-657</div>
+                                            </div>
+                                            <div class="product--item-price">$259.00</div>
+                                        </div>
+                                    </div>
+                                </a>
                             
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">VIEW</div>
-                              </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Sunset 3TR</div>
-                              </div>
-                              <div class="product--item-price">$200.00</div>
-              
-                            </div>
-              
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
+                                <div class="add-Product-To-Cart--btn">
+                                    <div class="centered--button">
+                                    <div class="textbox-button">
+                                    <a href="/main-product.html" class="icon" >
+                                        <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                        View
+                                        </button>
+                                    </a>
+                                    </div>
+                                    </div>
                                 </div>
-                              </div>
+                                    
                             </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">RGBW 2XR</div>
-                              </div>
-                              <div class="product--item-price">$120.00</div>
-                            </div>
-              
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="" class="product-block">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
-                                </div>
-                              </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Lava 2WR</div>
-                              </div>
-                              <div class="product--item-price">$280.00</div>
-                            </div>
+                        </div>
+                        <div class="product col">
+                            <div class="produt-container">
+    
+                                <a href="/main-product.html" class="product-block">
+                                    <div class="grid-item">
+                                        <div class="product-img">
+                                            <img 
+                                                srcset=""
+                                                src="/assets/images/product-images/np-3A.jpg"
+                                                sizes=""
+                                                alt=""
+                                                loading="lazy"
+                                                class="img"
+                                            >
+                                            <div class="overlay">
+                                                <div class="svg-Image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item--description">
+                                            <div class="collection--title">Vor-Tech</div>
+                                            <div class="product--item-title">
+                                                <div class="prod--title">Sunset XN-657</div>
+                                            </div>
+                                            <div class="product--item-price">$259.00</div>
+                                        </div>
+                                    </div>
+                                </a>
                             
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">VIEW</div>
-                              </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Sunset 3TR</div>
-                              </div>
-                              <div class="product--item-price">$200.00</div>
-              
-                            </div>
-              
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
+                                <div class="add-Product-To-Cart--btn">
+                                    <div class="centered--button">
+                                    <div class="textbox-button">
+                                    <a href="/main-product.html" class="icon" >
+                                        <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                        View
+                                        </button>
+                                    </a>
+                                    </div>
+                                    </div>
                                 </div>
-                              </div>
+                                    
                             </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">RGBW 2XR</div>
-                              </div>
-                              <div class="product--item-price">$120.00</div>
-                            </div>
-              
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="" class="product-block">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
-                                </div>
-                              </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Lava 2WR</div>
-                              </div>
-                              <div class="product--item-price">$280.00</div>
-                            </div>
+                        </div>
+                        <div class="product col">
+                            <div class="produt-container">
+    
+                                <a href="/main-product.html" class="product-block">
+                                    <div class="grid-item">
+                                        <div class="product-img">
+                                            <img 
+                                                srcset=""
+                                                src="/assets/images/product-images/new-prod4.jpg"
+                                                sizes=""
+                                                alt=""
+                                                loading="lazy"
+                                                class="img"
+                                            >
+                                            <div class="overlay">
+                                                <div class="svg-Image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item--description">
+                                            <div class="collection--title">Vor-Tech</div>
+                                            <div class="product--item-title">
+                                                <div class="prod--title">Sunset XN-657</div>
+                                            </div>
+                                            <div class="product--item-price">$259.00</div>
+                                        </div>
+                                    </div>
+                                </a>
                             
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">VIEW</div>
-                              </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Sunset 3TR</div>
-                              </div>
-                              <div class="product--item-price">$200.00</div>
-              
-                            </div>
-              
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
+                                <div class="add-Product-To-Cart--btn">
+                                    <div class="centered--button">
+                                    <div class="textbox-button">
+                                    <a href="/main-product.html" class="icon" >
+                                        <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                        View
+                                        </button>
+                                    </a>
+                                    </div>
+                                    </div>
                                 </div>
-                              </div>
+                                    
                             </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">RGBW 2XR</div>
-                              </div>
-                              <div class="product--item-price">$120.00</div>
-                            </div>
-              
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="" class="product-block">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
-                                </div>
-                              </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Lava 2WR</div>
-                              </div>
-                              <div class="product--item-price">$280.00</div>
-                            </div>
+                        </div>
+                        <div class="product col">
+                            <div class="produt-container">
+    
+                                <a href="/main-product.html" class="product-block">
+                                    <div class="grid-item">
+                                        <div class="product-img">
+                                            <img 
+                                                srcset=""
+                                                src="/assets/images/product-images/new-prod2.jpg"
+                                                sizes=""
+                                                alt=""
+                                                loading="lazy"
+                                                class="img"
+                                            >
+                                            <div class="overlay">
+                                                <div class="svg-Image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item--description">
+                                            <div class="collection--title">Vor-Tech</div>
+                                            <div class="product--item-title">
+                                                <div class="prod--title">Sunset XN-657</div>
+                                            </div>
+                                            <div class="product--item-price">$259.00</div>
+                                        </div>
+                                    </div>
+                                </a>
                             
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">VIEW</div>
-                              </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Sunset 3TR</div>
-                              </div>
-                              <div class="product--item-price">$200.00</div>
-              
-                            </div>
-              
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
+                                <div class="add-Product-To-Cart--btn">
+                                    <div class="centered--button">
+                                    <div class="textbox-button">
+                                    <a href="/main-product.html" class="icon" >
+                                        <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                        View
+                                        </button>
+                                    </a>
+                                    </div>
+                                    </div>
                                 </div>
-                              </div>
+                                    
                             </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">RGBW 2XR</div>
-                              </div>
-                              <div class="product--item-price">$120.00</div>
-                            </div>
-              
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="" class="product-block">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
-                                </div>
-                              </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Lava 2WR</div>
-                              </div>
-                              <div class="product--item-price">$280.00</div>
-                            </div>
+                        </div>
+                        <div class="product col">
+                            <div class="produt-container">
+    
+                                <a href="/main-product.html" class="product-block">
+                                    <div class="grid-item">
+                                        <div class="product-img">
+                                            <img 
+                                                srcset=""
+                                                src="/assets/images/product-images/new-prod3.jpg"
+                                                sizes=""
+                                                alt=""
+                                                loading="lazy"
+                                                class="img"
+                                            >
+                                            <div class="overlay">
+                                                <div class="svg-Image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item--description">
+                                            <div class="collection--title">Vor-Tech</div>
+                                            <div class="product--item-title">
+                                                <div class="prod--title">Sunset XN-657</div>
+                                            </div>
+                                            <div class="product--item-price">$259.00</div>
+                                        </div>
+                                    </div>
+                                </a>
                             
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">VIEW</div>
-                              </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Sunset 3TR</div>
-                              </div>
-                              <div class="product--item-price">$200.00</div>
-              
-                            </div>
-              
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
+                                <div class="add-Product-To-Cart--btn">
+                                    <div class="centered--button">
+                                    <div class="textbox-button">
+                                    <a href="/main-product.html" class="icon" >
+                                        <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                        View
+                                        </button>
+                                    </a>
+                                    </div>
+                                    </div>
                                 </div>
-                              </div>
+                                    
                             </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">RGBW 2XR</div>
-                              </div>
-                              <div class="product--item-price">$120.00</div>
-                            </div>
-              
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="" class="product-block">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
-                                </div>
-                              </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Lava 2WR</div>
-                              </div>
-                              <div class="product--item-price">$280.00</div>
-                            </div>
+                        </div>
+                        <div class="product col">
+                            <div class="produt-container">
+    
+                                <a href="/main-product.html" class="product-block">
+                                    <div class="grid-item">
+                                        <div class="product-img">
+                                            <img 
+                                                srcset=""
+                                                src="/assets/images/product-images/np1.jpg"
+                                                sizes=""
+                                                alt=""
+                                                loading="lazy"
+                                                class="img"
+                                            >
+                                            <div class="overlay">
+                                                <div class="svg-Image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item--description">
+                                            <div class="collection--title">Vor-Tech</div>
+                                            <div class="product--item-title">
+                                                <div class="prod--title">Sunset XN-657</div>
+                                            </div>
+                                            <div class="product--item-price">$259.00</div>
+                                        </div>
+                                    </div>
+                                </a>
                             
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">VIEW</div>
-                              </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Sunset 3TR</div>
-                              </div>
-                              <div class="product--item-price">$200.00</div>
-              
-                            </div>
-              
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
+                                <div class="add-Product-To-Cart--btn">
+                                    <div class="centered--button">
+                                    <div class="textbox-button">
+                                    <a href="/main-product.html" class="icon" >
+                                        <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                        View
+                                        </button>
+                                    </a>
+                                    </div>
+                                    </div>
                                 </div>
-                              </div>
+                                    
                             </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">RGBW 2XR</div>
+                        </div>
+                        <div class="product col">
+                          <div class="produt-container">
+  
+                              <a href="/main-product.html" class="product-block">
+                                  <div class="grid-item">
+                                      <div class="product-img">
+                                          <img 
+                                              srcset=""
+                                              src="/assets/images/product-images/new-prod1.jpg"
+                                              sizes=""
+                                              alt=""
+                                              loading="lazy"
+                                              class="img"
+                                          >
+                                          <div class="overlay">
+                                              <div class="svg-Image">
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="item--description">
+                                          <div class="collection--title">Vor-Tech</div>
+                                          <div class="product--item-title">
+                                              <div class="prod--title">Sunset XN-657</div>
+                                          </div>
+                                          <div class="product--item-price">$259.00</div>
+                                      </div>
+                                  </div>
+                              </a>
+                          
+                              <div class="add-Product-To-Cart--btn">
+                                  <div class="centered--button">
+                                  <div class="textbox-button">
+                                  <a href="/main-product.html" class="icon" >
+                                      <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                      View
+                                      </button>
+                                  </a>
+                                  </div>
+                                  </div>
                               </div>
-                              <div class="product--item-price">$120.00</div>
-                            </div>
-              
+                                  
                           </div>
-                        </a>
-              
                       </div>
                       <div class="product col">
-                        <a href="" class="product-block">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
-                                </div>
+                          <div class="produt-container">
+  
+                              <a href="/main-product.html" class="product-block">
+                                  <div class="grid-item">
+                                      <div class="product-img">
+                                          <img 
+                                              srcset=""
+                                              src="/assets/images/product-images/np-3A.jpg"
+                                              sizes=""
+                                              alt=""
+                                              loading="lazy"
+                                              class="img"
+                                          >
+                                          <div class="overlay">
+                                              <div class="svg-Image">
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="item--description">
+                                          <div class="collection--title">Vor-Tech</div>
+                                          <div class="product--item-title">
+                                              <div class="prod--title">Sunset XN-657</div>
+                                          </div>
+                                          <div class="product--item-price">$259.00</div>
+                                      </div>
+                                  </div>
+                              </a>
+                          
+                              <div class="add-Product-To-Cart--btn">
+                                  <div class="centered--button">
+                                  <div class="textbox-button">
+                                  <a href="/main-product.html" class="icon" >
+                                      <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                      View
+                                      </button>
+                                  </a>
+                                  </div>
+                                  </div>
                               </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Lava 2WR</div>
-                              </div>
-                              <div class="product--item-price">$280.00</div>
-                            </div>
-                            
+                                  
                           </div>
-                        </a>
-              
                       </div>
                       <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">VIEW</div>
+                          <div class="produt-container">
+  
+                              <a href="/main-product.html" class="product-block">
+                                  <div class="grid-item">
+                                      <div class="product-img">
+                                          <img 
+                                              srcset=""
+                                              src="/assets/images/product-images/new-prod4.jpg"
+                                              sizes=""
+                                              alt=""
+                                              loading="lazy"
+                                              class="img"
+                                          >
+                                          <div class="overlay">
+                                              <div class="svg-Image">
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="item--description">
+                                          <div class="collection--title">Vor-Tech</div>
+                                          <div class="product--item-title">
+                                              <div class="prod--title">Sunset XN-657</div>
+                                          </div>
+                                          <div class="product--item-price">$259.00</div>
+                                      </div>
+                                  </div>
+                              </a>
+                          
+                              <div class="add-Product-To-Cart--btn">
+                                  <div class="centered--button">
+                                  <div class="textbox-button">
+                                  <a href="/main-product.html" class="icon" >
+                                      <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                      View
+                                      </button>
+                                  </a>
+                                  </div>
+                                  </div>
                               </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Sunset 3TR</div>
-                              </div>
-                              <div class="product--item-price">$200.00</div>
-              
-                            </div>
-              
+                                  
                           </div>
-                        </a>
-              
                       </div>
                       <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
-                                </div>
+                          <div class="produt-container">
+  
+                              <a href="/main-product.html" class="product-block">
+                                  <div class="grid-item">
+                                      <div class="product-img">
+                                          <img 
+                                              srcset=""
+                                              src="/assets/images/product-images/new-prod2.jpg"
+                                              sizes=""
+                                              alt=""
+                                              loading="lazy"
+                                              class="img"
+                                          >
+                                          <div class="overlay">
+                                              <div class="svg-Image">
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="item--description">
+                                          <div class="collection--title">Vor-Tech</div>
+                                          <div class="product--item-title">
+                                              <div class="prod--title">Sunset XN-657</div>
+                                          </div>
+                                          <div class="product--item-price">$259.00</div>
+                                      </div>
+                                  </div>
+                              </a>
+                          
+                              <div class="add-Product-To-Cart--btn">
+                                  <div class="centered--button">
+                                  <div class="textbox-button">
+                                  <a href="/main-product.html" class="icon" >
+                                      <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                      View
+                                      </button>
+                                  </a>
+                                  </div>
+                                  </div>
                               </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">RGBW 2XR</div>
-                              </div>
-                              <div class="product--item-price">$120.00</div>
-                            </div>
-              
+                                  
                           </div>
-                        </a>
-              
                       </div>
                       <div class="product col">
-                        <a href="" class="product-block">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
-                                </div>
+                          <div class="produt-container">
+  
+                              <a href="/main-product.html" class="product-block">
+                                  <div class="grid-item">
+                                      <div class="product-img">
+                                          <img 
+                                              srcset=""
+                                              src="/assets/images/product-images/new-prod3.jpg"
+                                              sizes=""
+                                              alt=""
+                                              loading="lazy"
+                                              class="img"
+                                          >
+                                          <div class="overlay">
+                                              <div class="svg-Image">
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="item--description">
+                                          <div class="collection--title">Vor-Tech</div>
+                                          <div class="product--item-title">
+                                              <div class="prod--title">Sunset XN-657</div>
+                                          </div>
+                                          <div class="product--item-price">$259.00</div>
+                                      </div>
+                                  </div>
+                              </a>
+                          
+                              <div class="add-Product-To-Cart--btn">
+                                  <div class="centered--button">
+                                  <div class="textbox-button">
+                                  <a href="/main-product.html" class="icon" >
+                                      <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                      View
+                                      </button>
+                                  </a>
+                                  </div>
+                                  </div>
                               </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Lava 2WR</div>
-                              </div>
-                              <div class="product--item-price">$280.00</div>
-                            </div>
-                            
+                                  
                           </div>
-                        </a>
-              
                       </div>
                       <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">VIEW</div>
+                          <div class="produt-container">
+  
+                              <a href="/main-product.html" class="product-block">
+                                  <div class="grid-item">
+                                      <div class="product-img">
+                                          <img 
+                                              srcset=""
+                                              src="/assets/images/product-images/np1.jpg"
+                                              sizes=""
+                                              alt=""
+                                              loading="lazy"
+                                              class="img"
+                                          >
+                                          <div class="overlay">
+                                              <div class="svg-Image">
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="item--description">
+                                          <div class="collection--title">Vor-Tech</div>
+                                          <div class="product--item-title">
+                                              <div class="prod--title">Sunset XN-657</div>
+                                          </div>
+                                          <div class="product--item-price">$259.00</div>
+                                      </div>
+                                  </div>
+                              </a>
+                          
+                              <div class="add-Product-To-Cart--btn">
+                                  <div class="centered--button">
+                                  <div class="textbox-button">
+                                  <a href="/main-product.html" class="icon" >
+                                      <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                      View
+                                      </button>
+                                  </a>
+                                  </div>
+                                  </div>
                               </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Sunset 3TR</div>
-                              </div>
-                              <div class="product--item-price">$200.00</div>
-              
-                            </div>
-              
+                                  
                           </div>
-                        </a>
-              
                       </div>
                       <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
-                                </div>
-                              </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">RGBW 2XR</div>
-                              </div>
-                              <div class="product--item-price">$120.00</div>
-                            </div>
-              
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="" class="product-block">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
-                                </div>
-                              </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Lava 2WR</div>
-                              </div>
-                              <div class="product--item-price">$280.00</div>
-                            </div>
-                            
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">VIEW</div>
-                              </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">Sunset 3TR</div>
-                              </div>
-                              <div class="product--item-price">$200.00</div>
-              
-                            </div>
-              
-                          </div>
-                        </a>
-              
-                      </div>
-                      <div class="product col">
-                        <a href="">
-                          <div class="grid-item">
-                            <div class="product-img">
-                              <img src="assets/images/keyboard-images/product-images/keyboard-product.jpg" class="hero" alt="" loading="lazy">
-                              <div class="overlay">
-                                <div class="text">
-                                  VIEW
-                                </div>
-                              </div>
-                            </div>
-              
-                            <div class="item--description">
-                              <div class="collection--title">Vor-Tech</div>
-                              <div class="product--item-title">
-                                <div class="prod--title">RGBW 2XR</div>
-                              </div>
-                              <div class="product--item-price">$120.00</div>
-                            </div>
-              
-                          </div>
-                        </a>
-              
-                      </div>
-                    </div>
+                        <div class="produt-container">
 
-                    <div class="load-results-btn centered--button">
-                      <div class="textbox-button">
-                        <button class="add-To-Cart--Btn" aria-label="load more products">
-                          <a>Load More</a>
-                        </button>
-                      </div>
+                            <a href="/main-product.html" class="product-block">
+                                <div class="grid-item">
+                                    <div class="product-img">
+                                        <img 
+                                            srcset=""
+                                            src="/assets/images/product-images/new-prod1.jpg"
+                                            sizes=""
+                                            alt=""
+                                            loading="lazy"
+                                            class="img"
+                                        >
+                                        <div class="overlay">
+                                            <div class="svg-Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item--description">
+                                        <div class="collection--title">Vor-Tech</div>
+                                        <div class="product--item-title">
+                                            <div class="prod--title">Sunset XN-657</div>
+                                        </div>
+                                        <div class="product--item-price">$259.00</div>
+                                    </div>
+                                </div>
+                            </a>
+                        
+                            <div class="add-Product-To-Cart--btn">
+                                <div class="centered--button">
+                                <div class="textbox-button">
+                                <a href="/main-product.html" class="icon" >
+                                    <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                    View
+                                    </button>
+                                </a>
+                                </div>
+                                </div>
+                            </div>
+                                
+                        </div>
                     </div>
+                    <div class="product col">
+                        <div class="produt-container">
+
+                            <a href="/main-product.html" class="product-block">
+                                <div class="grid-item">
+                                    <div class="product-img">
+                                        <img 
+                                            srcset=""
+                                            src="/assets/images/product-images/np-3A.jpg"
+                                            sizes=""
+                                            alt=""
+                                            loading="lazy"
+                                            class="img"
+                                        >
+                                        <div class="overlay">
+                                            <div class="svg-Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item--description">
+                                        <div class="collection--title">Vor-Tech</div>
+                                        <div class="product--item-title">
+                                            <div class="prod--title">Sunset XN-657</div>
+                                        </div>
+                                        <div class="product--item-price">$259.00</div>
+                                    </div>
+                                </div>
+                            </a>
+                        
+                            <div class="add-Product-To-Cart--btn">
+                                <div class="centered--button">
+                                <div class="textbox-button">
+                                <a href="/main-product.html" class="icon" >
+                                    <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                    View
+                                    </button>
+                                </a>
+                                </div>
+                                </div>
+                            </div>
+                                
+                        </div>
+                    </div>
+                    <div class="product col">
+                        <div class="produt-container">
+
+                            <a href="/main-product.html" class="product-block">
+                                <div class="grid-item">
+                                    <div class="product-img">
+                                        <img 
+                                            srcset=""
+                                            src="/assets/images/product-images/new-prod4.jpg"
+                                            sizes=""
+                                            alt=""
+                                            loading="lazy"
+                                            class="img"
+                                        >
+                                        <div class="overlay">
+                                            <div class="svg-Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item--description">
+                                        <div class="collection--title">Vor-Tech</div>
+                                        <div class="product--item-title">
+                                            <div class="prod--title">Sunset XN-657</div>
+                                        </div>
+                                        <div class="product--item-price">$259.00</div>
+                                    </div>
+                                </div>
+                            </a>
+                        
+                            <div class="add-Product-To-Cart--btn">
+                                <div class="centered--button">
+                                <div class="textbox-button">
+                                <a href="/main-product.html" class="icon" >
+                                    <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                    View
+                                    </button>
+                                </a>
+                                </div>
+                                </div>
+                            </div>
+                                
+                        </div>
+                    </div>
+                    <div class="product col">
+                        <div class="produt-container">
+
+                            <a href="/main-product.html" class="product-block">
+                                <div class="grid-item">
+                                    <div class="product-img">
+                                        <img 
+                                            srcset=""
+                                            src="/assets/images/product-images/new-prod2.jpg"
+                                            sizes=""
+                                            alt=""
+                                            loading="lazy"
+                                            class="img"
+                                        >
+                                        <div class="overlay">
+                                            <div class="svg-Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item--description">
+                                        <div class="collection--title">Vor-Tech</div>
+                                        <div class="product--item-title">
+                                            <div class="prod--title">Sunset XN-657</div>
+                                        </div>
+                                        <div class="product--item-price">$259.00</div>
+                                    </div>
+                                </div>
+                            </a>
+                        
+                            <div class="add-Product-To-Cart--btn">
+                                <div class="centered--button">
+                                <div class="textbox-button">
+                                <a href="/main-product.html" class="icon" >
+                                    <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                    View
+                                    </button>
+                                </a>
+                                </div>
+                                </div>
+                            </div>
+                                
+                        </div>
+                    </div>
+                    <div class="product col">
+                        <div class="produt-container">
+
+                            <a href="/main-product.html" class="product-block">
+                                <div class="grid-item">
+                                    <div class="product-img">
+                                        <img 
+                                            srcset=""
+                                            src="/assets/images/product-images/new-prod3.jpg"
+                                            sizes=""
+                                            alt=""
+                                            loading="lazy"
+                                            class="img"
+                                        >
+                                        <div class="overlay">
+                                            <div class="svg-Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item--description">
+                                        <div class="collection--title">Vor-Tech</div>
+                                        <div class="product--item-title">
+                                            <div class="prod--title">Sunset XN-657</div>
+                                        </div>
+                                        <div class="product--item-price">$259.00</div>
+                                    </div>
+                                </div>
+                            </a>
+                        
+                            <div class="add-Product-To-Cart--btn">
+                                <div class="centered--button">
+                                <div class="textbox-button">
+                                <a href="/main-product.html" class="icon" >
+                                    <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                    View
+                                    </button>
+                                </a>
+                                </div>
+                                </div>
+                            </div>
+                                
+                        </div>
+                    </div>
+                    <div class="product col">
+                        <div class="produt-container">
+
+                            <a href="/main-product.html" class="product-block">
+                                <div class="grid-item">
+                                    <div class="product-img">
+                                        <img 
+                                            srcset=""
+                                            src="/assets/images/product-images/np1.jpg"
+                                            sizes=""
+                                            alt=""
+                                            loading="lazy"
+                                            class="img"
+                                        >
+                                        <div class="overlay">
+                                            <div class="svg-Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item--description">
+                                        <div class="collection--title">Vor-Tech</div>
+                                        <div class="product--item-title">
+                                            <div class="prod--title">Sunset XN-657</div>
+                                        </div>
+                                        <div class="product--item-price">$259.00</div>
+                                    </div>
+                                </div>
+                            </a>
+                        
+                            <div class="add-Product-To-Cart--btn">
+                                <div class="centered--button">
+                                <div class="textbox-button">
+                                <a href="/main-product.html" class="icon" >
+                                    <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                    View
+                                    </button>
+                                </a>
+                                </div>
+                                </div>
+                            </div>
+                                
+                        </div>
+                    </div>
+                    <div class="product col">
+                      <div class="produt-container">
+
+                          <a href="/main-product.html" class="product-block">
+                              <div class="grid-item">
+                                  <div class="product-img">
+                                      <img 
+                                          srcset=""
+                                          src="/assets/images/product-images/new-prod1.jpg"
+                                          sizes=""
+                                          alt=""
+                                          loading="lazy"
+                                          class="img"
+                                      >
+                                      <div class="overlay">
+                                          <div class="svg-Image">
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="item--description">
+                                      <div class="collection--title">Vor-Tech</div>
+                                      <div class="product--item-title">
+                                          <div class="prod--title">Sunset XN-657</div>
+                                      </div>
+                                      <div class="product--item-price">$259.00</div>
+                                  </div>
+                              </div>
+                          </a>
+                      
+                          <div class="add-Product-To-Cart--btn">
+                              <div class="centered--button">
+                              <div class="textbox-button">
+                              <a href="/main-product.html" class="icon" >
+                                  <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                  View
+                                  </button>
+                              </a>
+                              </div>
+                              </div>
+                          </div>
+                              
+                      </div>
                   </div>
-                </div> 
+                  <div class="product col">
+                      <div class="produt-container">
 
+                          <a href="/main-product.html" class="product-block">
+                              <div class="grid-item">
+                                  <div class="product-img">
+                                      <img 
+                                          srcset=""
+                                          src="/assets/images/product-images/np-3A.jpg"
+                                          sizes=""
+                                          alt=""
+                                          loading="lazy"
+                                          class="img"
+                                      >
+                                      <div class="overlay">
+                                          <div class="svg-Image">
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="item--description">
+                                      <div class="collection--title">Vor-Tech</div>
+                                      <div class="product--item-title">
+                                          <div class="prod--title">Sunset XN-657</div>
+                                      </div>
+                                      <div class="product--item-price">$259.00</div>
+                                  </div>
+                              </div>
+                          </a>
+                      
+                          <div class="add-Product-To-Cart--btn">
+                              <div class="centered--button">
+                              <div class="textbox-button">
+                              <a href="/main-product.html" class="icon" >
+                                  <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                  View
+                                  </button>
+                              </a>
+                              </div>
+                              </div>
+                          </div>
+                              
+                      </div>
+                  </div>
+                  <div class="product col">
+                      <div class="produt-container">
 
+                          <a href="/main-product.html" class="product-block">
+                              <div class="grid-item">
+                                  <div class="product-img">
+                                      <img 
+                                          srcset=""
+                                          src="/assets/images/product-images/new-prod4.jpg"
+                                          sizes=""
+                                          alt=""
+                                          loading="lazy"
+                                          class="img"
+                                      >
+                                      <div class="overlay">
+                                          <div class="svg-Image">
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="item--description">
+                                      <div class="collection--title">Vor-Tech</div>
+                                      <div class="product--item-title">
+                                          <div class="prod--title">Sunset XN-657</div>
+                                      </div>
+                                      <div class="product--item-price">$259.00</div>
+                                  </div>
+                              </div>
+                          </a>
+                      
+                          <div class="add-Product-To-Cart--btn">
+                              <div class="centered--button">
+                              <div class="textbox-button">
+                              <a href="/main-product.html" class="icon" >
+                                  <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                  View
+                                  </button>
+                              </a>
+                              </div>
+                              </div>
+                          </div>
+                              
+                      </div>
+                  </div>
+                  <div class="product col">
+                      <div class="produt-container">
+
+                          <a href="/main-product.html" class="product-block">
+                              <div class="grid-item">
+                                  <div class="product-img">
+                                      <img 
+                                          srcset=""
+                                          src="/assets/images/product-images/new-prod2.jpg"
+                                          sizes=""
+                                          alt=""
+                                          loading="lazy"
+                                          class="img"
+                                      >
+                                      <div class="overlay">
+                                          <div class="svg-Image">
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="item--description">
+                                      <div class="collection--title">Vor-Tech</div>
+                                      <div class="product--item-title">
+                                          <div class="prod--title">Sunset XN-657</div>
+                                      </div>
+                                      <div class="product--item-price">$259.00</div>
+                                  </div>
+                              </div>
+                          </a>
+                      
+                          <div class="add-Product-To-Cart--btn">
+                              <div class="centered--button">
+                              <div class="textbox-button">
+                              <a href="/main-product.html" class="icon" >
+                                  <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                  View
+                                  </button>
+                              </a>
+                              </div>
+                              </div>
+                          </div>
+                              
+                      </div>
+                  </div>
+                  <div class="product col">
+                      <div class="produt-container">
+
+                          <a href="/main-product.html" class="product-block">
+                              <div class="grid-item">
+                                  <div class="product-img">
+                                      <img 
+                                          srcset=""
+                                          src="/assets/images/product-images/new-prod3.jpg"
+                                          sizes=""
+                                          alt=""
+                                          loading="lazy"
+                                          class="img"
+                                      >
+                                      <div class="overlay">
+                                          <div class="svg-Image">
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="item--description">
+                                      <div class="collection--title">Vor-Tech</div>
+                                      <div class="product--item-title">
+                                          <div class="prod--title">Sunset XN-657</div>
+                                      </div>
+                                      <div class="product--item-price">$259.00</div>
+                                  </div>
+                              </div>
+                          </a>
+                      
+                          <div class="add-Product-To-Cart--btn">
+                              <div class="centered--button">
+                              <div class="textbox-button">
+                              <a href="/main-product.html" class="icon" >
+                                  <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                  View
+                                  </button>
+                              </a>
+                              </div>
+                              </div>
+                          </div>
+                              
+                      </div>
+                  </div>
+                  <div class="product col">
+                      <div class="produt-container">
+
+                          <a href="/main-product.html" class="product-block">
+                              <div class="grid-item">
+                                  <div class="product-img">
+                                      <img 
+                                          srcset=""
+                                          src="/assets/images/product-images/np1.jpg"
+                                          sizes=""
+                                          alt=""
+                                          loading="lazy"
+                                          class="img"
+                                      >
+                                      <div class="overlay">
+                                          <div class="svg-Image">
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="item--description">
+                                      <div class="collection--title">Vor-Tech</div>
+                                      <div class="product--item-title">
+                                          <div class="prod--title">Sunset XN-657</div>
+                                      </div>
+                                      <div class="product--item-price">$259.00</div>
+                                  </div>
+                              </div>
+                          </a>
+                      
+                          <div class="add-Product-To-Cart--btn">
+                              <div class="centered--button">
+                              <div class="textbox-button">
+                              <a href="/main-product.html" class="icon" >
+                                  <button aria-label="Quick Add" class="add-To-Cart--Btn"       type="button" >
+                                  View
+                                  </button>
+                              </a>
+                              </div>
+                              </div>
+                          </div>
+                              
+                      </div>
+                  </div>
+                      </div>
+                  </div>
+              
+
+                  <!-- Load More Button -->
+                  <div class="collection-button">
+                      <div class="centered--button">
+                          <div class="textbox-button">
+              
+                              <button aria-label="Shop Collection" class="shop-Collection--Btn">
+                                  <a class="link-padding" href="/products-page.html" aria-label="">View All</a>
+                              </button>
+              
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
 
               </div>
             </div>
@@ -2184,6 +2839,7 @@ crossOrigin="anonymous"></Script>
 <script src="/assets/javascript/mobile-nav.js"></script>
 <script src="/assets/javascript/global.js"></script>
 <script src="/assets/javascript/header.js" ></script>
+<script src="/assets/javascript/collection-page.js" ></script>
 
 
 
