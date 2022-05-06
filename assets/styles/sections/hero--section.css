@@ -260,17 +260,17 @@
     
     */
     .hero-section .hero-grid .hero-style2 .hero-style3 .hero-image-style .img{
-      height: 60vh;
+      height: 45vh;
     }
     .product-image{
-    height: 60vh;
+    height: 45vh;
     } 
     .hero-section .overlay {
       background: linear-gradient(70deg, rgb(0, 0, 0) 15%, rgba(255,255,255,0) 70%);
-      height: 60vh;
+      height: 45vh;
     }
     .hero-section .flickity-viewport{
-      height: 60vh!important;
+      height: 45vh!important;
     }
     
     .hero-section .hero-grid .hero-textbox{
