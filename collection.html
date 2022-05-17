@@ -40,6 +40,8 @@
         <link rel="stylesheet" href="/assets/styles/global/mobile-nav.css">
         <!-- Products Page CSS -->
         <link rel="stylesheet" href="/assets/styles/products-page/products-page.css">
+        <!-- Color Swatches Filter CSS -->
+        <link rel="stylesheet" href="assets/styles/products-page/filter-color-swatches.css">
 
     <title>TKC | Home</title>
 
@@ -622,246 +624,240 @@
 </div>
 <!-- Header -->
 <header id="header">
-    <!-- Top Row -->
-    <div class="top-row">
-        <div class="grid-container">
+  <!-- Top Row -->
+  <div class="top-row">
+      <div class="grid-container">
 
-            <div class="grid-item item-1">
-                <ul class="icons-list">
-                <li class="header-Menu--Btn">
-                    <button class="hamburger hamburger--spring header-Menu--Btn" aria-label="Toggle Menu" type="button">
-                    <span class="hamburger-box">
-                        <span class="hamburger-inner"></span>
-                        </span>
-                    </button>
-                </li>
-                <li class="user-account">
-                    <button class="account-Icon--Mobile icon-Style icon btn" type="button">
-                    <!-- <button class="account-Icon--Mobile icon-Style icon btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#accountLogin" aria-controls="accountLogin"> -->
-                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor"
-                        class="bi bi-person" viewBox="0 0 16 16">
-                        <path
-                        d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
-                    </svg>
-                    </button>
-                </li>
-                </ul>
-            </div>
+          <div class="grid-item item-1">
+              <ul class="icons-list">
+              <li class="header-Menu--Btn">
+                  <button class="hamburger hamburger--spring header-Menu--Btn" aria-label="Toggle Menu" type="button">
+                  <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                      </span>
+                  </button>
+              </li>
+              <li class="user-account">
+                  <button class="account-Icon--Mobile icon-Style icon btn" type="button">
+                  <!-- <button class="account-Icon--Mobile icon-Style icon btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#accountLogin" aria-controls="accountLogin"> -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor"
+                      class="bi bi-person" viewBox="0 0 16 16">
+                      <path
+                      d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                  </svg>
+                  </button>
+              </li>
+              </ul>
+          </div>
 
-            <div class="grid-item item-2">
-                <div class="desktop-logo">
-                    <a href="/home.html">
-                        <img 
-                        srcset=""
-                        src="/assets/images/logo/TKC-1logo.png"
-                        loading="lazy"
-                        class="popup-Logo"
-                        alt="">
-                    </a>
-                </div>
-            </div>
+          <div class="grid-item item-2">
+              <div class="desktop-logo">
+                  <a href="/home.html">
+                      <img 
+                      srcset=""
+                      src="/assets/images/logo/TKC-1logo.png"
+                      loading="lazy"
+                      class="popup-Logo"
+                      alt="">
+                  </a>
+              </div>
+          </div>
 
-            <div class="grid-item item-3">
-                <div class="icons">
-                <ul class="icons-list">
-                    <li class="search">
-                    <button onclick="focusSearchInput()" class="search-Button icon-Style icon" aria-label="Search Store Inventory" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor"
-                        class="bi bi-search" viewBox="0 0 16 16">
-                        <path
-                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                        </svg>
-                    </button>
-                    </li>
-                    <li class="user-account">
-                    <button class="account-Icon icon icon-Style btn" type="button">
-                    <!-- <button class="account-Icon icon icon-Style btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#accountLogin" aria-controls="accountLogin"> -->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor"
-                        class="bi bi-person" viewBox="0 0 16 16">
-                        <path
-                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
-                        </svg>
-                    </button>
-                    </li>
-                    <li class="shopping-Bag">
+          <div class="grid-item item-3">
+              <div class="icons">
+              <ul class="icons-list">
+                  <li class="search">
+                  <button onclick="focusSearchInput()" class="search-Button icon-Style icon" aria-label="Search Store Inventory" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor"
+                      class="bi bi-search" viewBox="0 0 16 16">
+                      <path
+                          d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                      </svg>
+                  </button>
+                  </li>
+                  <li class="user-account">
+                  <button class="account-Icon icon icon-Style btn" type="button">
+                  <!-- <button class="account-Icon icon icon-Style btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#accountLogin" aria-controls="accountLogin"> -->
+                      <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor"
+                      class="bi bi-person" viewBox="0 0 16 16">
+                      <path
+                          d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                      </svg>
+                  </button>
+                  </li>
+                  <li class="shopping-Bag">
 
-                        <button class="btn cartAndItems icon-Style icon" data-bs-toggle="offcanvas" type="button" aria-controls="offcanvasExample" data-bs-target="#offcanvasExample"     id="cart-icon-bubble">
+                      <button class="btn cartAndItems icon-Style icon" data-bs-toggle="offcanvas" type="button" aria-controls="offcanvasExample" data-bs-target="#offcanvasExample"     id="cart-icon-bubble">
 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                            </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                          <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                          </svg>
 
-                            <div class="numberofItems cart-count-bubble">
-                                <form action="" method="post" class="my-cart" >
-                                <div data-ajax-cart-section>
-                                    <span aria-hidden="true">12</span>
-                                </div>
-                                </form>
-                            </div>
+                          <div class="numberofItems cart-count-bubble">
+                              <form action="" method="post" class="my-cart" >
+                              <div data-ajax-cart-section>
+                                  <span aria-hidden="true">12</span>
+                              </div>
+                              </form>
+                          </div>
 
-                        </button>
+                      </button>
 
-                    </li>
-                </ul>
-                </div>
-            </div>
+                  </li>
+              </ul>
+              </div>
+          </div>
 
-        </div>
-    </div>
-
-
-    <!-- Bottom Secondary Row -->
-    <div class="header-secondary-row">
-
-        <div class="header-nav" id="headerNavOpen">
-
- 
-        <nav class="meg-nav">
-            <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-Link active" >Keyboards<i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                <div class="items container">
-                <div class="row justify-content-center">
-                    <div class="link-blocks col-12">
-                        <div class="products-Column">
-                            <div class="prodct-Title-Container">
-                            <a class="product-Title">Vor-Tech</a>
-                            </div>
-                            <div class="submenu-wrapper">
-                            <div class="nav-Col">
-                                <ul class="product-Gen-List">
-                                <li class="product-Generation"><a href="">XN-657</a></li>
-                                <li class="product-Generation"><a href="">XN-657</a></li>
-                                <li class="product-Generation"><a href="">XN-657</a></li>
-                                <li class="product-Generation"><a href="">XN-657</a></li>
-                                <li class="product-Generation"><a href="">XN-657</a></li>
-                                <li class="product-Generation"><a href="">XN-657</a></li>
-                                </ul>
-                            </div>
-            
-                            </div>
-                        </div>
-                        <div class="products-Column">
-                            <div class="prodct-Title-Container">
-                            <a class="product-Title">Vor-Tech Keyboards</a>
-                            </div>
-                            <div class="submenu-wrapper">
-                            <div class="nav-Col">
-                                <ul class="product-Gen-List">
-                                    <li class="product-Generation"><a href="">XN-657</a></li>
-                                    <li class="product-Generation"><a href="">XN-657</a></li>
-                                    <li class="product-Generation"><a href="">XN-657</a></li>
-                                    <li class="product-Generation"><a href="">XN-657</a></li>
-                                    <li class="product-Generation"><a href="">XN-657</a></li>
-                                    <li class="product-Generation"><a href="">XN-657</a></li>
-                                    <li class="product-Generation"><a href="">XN-657</a></li>
-                                </ul>
-                            </div>
-            
-                            </div>
-                        </div>
-                        <div class="products-Column">
-                            <div class="prodct-Title-Container">
-                            <a class="product-Title">Looper Keyboards</a>
-                            </div>
-                            <div class="submenu-wrapper">
-                            <div class="nav-Col">
-                                <ul class="product-Gen-List">
-                                <li class="product-Generation"><a href="">XN-657</a></li>
-                                <li class="product-Generation"><a href="">XN-657</a></li>
-                                <li class="product-Generation"><a href="">XN-657</a></li>
-                                <li class="product-Generation"><a href="">XN-657</a></li>
-                                <li class="product-Generation"><a href="">XN-657</a></li>
-                                </ul>
-                            </div>
-            
-                            </div>
-                        </div>
-                        <!-- <div class="products-Column">
-                            <div class="prodct-Title-Container">
-                            <a class="product-Title">Connected Keyboards</a>
-                            </div>
-                            <div class="submenu-wrapper">
-                            <div class="nav-Col">
-                                <ul class="product-Gen-List">
-                                <li class="product-Generation"><a href="">XN-657</a></li>
-                                <li class="product-Generation"><a href="">XN-657</a></li>
-                                <li class="product-Generation"><a href="">XN-657</a></li>
-                                <li class="product-Generation"><a href="">XN-657</a></li>
-                                <li class="product-Generation"><a href="">XN-657</a></li>
-                                <li class="product-Generation"><a href="">XN-657</a></li>
-                                </ul>
-                            </div>
-            
-                            </div>
-                        </div> -->
+      </div>
+  </div>
 
 
-                        <div class="products-Column">
-                            <a href="">
-                                <img src="/assets/images/product-images/np1.jpg" width="200px" alt="" class="mega-nav--img">
-                            </a>
-                            <div class="mega-nav-img--Text">
-                               <a href="">Shop Vor-Tech</a> 
-                            </div>
-                        </div>
+  <!-- Bottom Secondary Row -->
+  <div class="header-secondary-row">
 
-                    </div>
-                </div>
-                </div>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-Link active" >Keyboard Extras<i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                <div class="items container">
-                <div class="row justify-content-center">
-                    <div class="link-blocks col-12">
-                        <div class="products-Column">
-                                <ul class="product-Gen-List">
-                                <li class="product-Generation"><a href="">Keyboard Mats</a></li>
-                                </ul>
-                                <ul class="product-Gen-List">
-                                <li class="product-Generation"><a href="">Keyboard Caps</a></li>
-                                </ul>
-                                <ul class="product-Gen-List">
-                                    <li class="product-Generation"><a href="">Cleaning Kits</a></li>
-                                </ul>
-                                <ul class="product-Gen-List">
-                                    <li class="product-Generation"><a href="">Wires</a></li>
-                                </ul>
-                                <ul class="product-Gen-List">
-                                    <li class="product-Generation"><a href=""></a></li>
-                                </ul>
-                        </div>
-                        <div class="products-Column">
-                            <a href="">
-                                <img src="/assets/images/product-images/npbg.jpg" width="200px" alt="" class="mega-nav--img">
-                            </a>
-                            <div class="mega-nav-img--Text">
-                               <a href="">Shop Vor-Tech</a> 
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-Link active" >Mouses<i class="fa fa-angle-right" aria-hidden="true"></i></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-Link active" >Clothing<i class="fa fa-angle-right" aria-hidden="true"></i></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-Link active" >About Us<i class="fa fa-angle-right" aria-hidden="true"></i></a>
-            </li>
+      <div class="header-nav" id="headerNavOpen">
 
 
-            </ul>
-        </nav>
+      <nav class="meg-nav">
+          <ul class="nav justify-content-center">
+          <li class="nav-item">
+              <a class="nav-Link active" href="/collection.html">Keyboards<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              <div class="items container">
+              <div class="row justify-content-center">
+                  <div class="link-blocks col-12">
+                      <div class="products-Column">
+                          <div class="prodct-Title-Container">
+                          <a class="product-Title" href="/collection.html">VOR-TECH Keyboards</a>
+                          </div>
+                          <div class="submenu-wrapper">
+                          <div class="nav-Col">
+                              <ul class="product-Gen-List">
+                              <li class="product-Generation"><a href="/collection.html">Product Series</a></li>
+                              <li class="product-Generation"><a href="/collection.html">Product Series</a></li>
+                              <li class="product-Generation"><a href="/collection.html">Product Series</a></li>
+                              <li class="product-Generation"><a href="/collection.html">Product Series</a></li>
+                              <li class="product-Generation"><a href="/collection.html">Product Series</a></li>
+                              </ul>
+                          </div>
+          
+                          </div>
+                      </div>
+                      <div class="products-Column">
+                          <div class="prodct-Title-Container">
+                          <a href="/collection.html" class="product-Title">LOOPER Keyboards</a>
+                          </div>
+                          <div class="submenu-wrapper">
+                          <div class="nav-Col">
+                              <ul class="product-Gen-List">
+                                  <li class="product-Generation"><a href="/collection.html">Product Series</a></li>
+                                  <li class="product-Generation"><a href="/collection.html">Product Series</a></li>
+                                  <li class="product-Generation"><a href="/collection.html">Product Series</a></li>
+                                  <li class="product-Generation"><a href="/collection.html">Product Series</a></li>
+                              </ul>
+                          </div>
+          
+                          </div>
+                      </div>
+                      <div class="products-Column">
+                          <div class="prodct-Title-Container">
+                          <a href="/collection.html" class="product-Title">KOSS Keyboards</a>
+                          </div>
+                          <div class="submenu-wrapper">
+                          <div class="nav-Col">
+                              <ul class="product-Gen-List">
+                                  <li class="product-Generation"><a href="/collection.html">Product Series</a></li>
+                                  <li class="product-Generation"><a href="/collection.html">Product Series</a></li>
+                                  <li class="product-Generation"><a href="/collection.html">Product Series</a></li>
+                              </ul>
+                          </div>
+          
+                          </div>
+                      </div>
+                      <!-- <div class="products-Column">
+                          <div class="prodct-Title-Container">
+                          <a class="product-Title">Connected Keyboards</a>
+                          </div>
+                          <div class="submenu-wrapper">
+                          <div class="nav-Col">
+                              <ul class="product-Gen-List">
+                              <li class="product-Generation"><a href="">XN-657</a></li>
+                              <li class="product-Generation"><a href="">XN-657</a></li>
+                              <li class="product-Generation"><a href="">XN-657</a></li>
+                              <li class="product-Generation"><a href="">XN-657</a></li>
+                              <li class="product-Generation"><a href="">XN-657</a></li>
+                              <li class="product-Generation"><a href="">XN-657</a></li>
+                              </ul>
+                          </div>
+          
+                          </div>
+                      </div> -->
 
-        </div>
-    </div>
+
+                      <div class="products-Column">
+                          <a href="">
+                              <img src="/assets/images/product-images/np1.jpg" width="200px" alt="" class="mega-nav--img">
+                          </a>
+                          <div class="mega-nav-img--Text">
+                             <a href="">FIRE SALES</a> 
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+              </div>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-Link active" >Keyboard Extras<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              <div class="items container">
+              <div class="row justify-content-center">
+                  <div class="link-blocks col-12">
+                      <div class="products-Column">
+                              <ul class="product-Gen-List">
+                              <li class="product-Generation"><a href="">Keyboard Mats</a></li>
+                              </ul>
+                              <ul class="product-Gen-List">
+                              <li class="product-Generation"><a href="">Keyboard Caps</a></li>
+                              </ul>
+                              <ul class="product-Gen-List">
+                                  <li class="product-Generation"><a href="">Cleaning Kits</a></li>
+                              </ul>
+                              <ul class="product-Gen-List">
+                                  <li class="product-Generation"><a href="">Wires</a></li>
+                              </ul>
+                              <ul class="product-Gen-List">
+                                  <li class="product-Generation"><a href=""></a></li>
+                              </ul>
+                      </div>
+                      <div class="products-Column">
+                          <a href="">
+                              <img src="/assets/images/product-images/npbg.jpg" width="200px" alt="" class="mega-nav--img">
+                          </a>
+                          <div class="mega-nav-img--Text">
+                             <a href="">Shop Vor-Tech</a> 
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+              </div>
+          </li>
+          <!-- <li class="nav-item">
+              <a class="nav-Link active" >Mouses<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          </li> -->
+          <li class="nav-item">
+              <a class="nav-Link active" >Clothing<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-Link active" >About Us<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          </li>
+
+
+          </ul>
+      </nav>
+
+      </div>
+  </div>
 </header>
   
   
@@ -872,43 +868,32 @@
         <div class="collection-hero">
           <div class="hero-grid">
           
-          <div class="hero-style2">
-              <div class="hero-style3">
-                  <div class="hero-image-style">                                                          
-                      <div class="overlay-container">
-                          <div class="overlay"></div>
+            <div class="hero-style2">
+                <div class="hero-style3">
+                    <div class="hero-image-style">                                                          
+                        <div class="overlay-container">
+                            <div class="overlay"></div>
+                                <img 
+                                class="img"
+                                class="hero"
+                                srcset=""
+                                src="/assets/images/product-images/collection-hero.jpg"
+                                loading="lazy"
+                                alt=""
+                                >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="hero-textbox">
+                <div class="textbox-background ">
+                    <div class="top-Text">Now Shopping</div>
+                    <h1 class="main-Text">Vor-Tech Keyboards</h1>
+                </div>
+            </div> 
 
-
-                            <!-- Optional: If User Chooses to replace Carousel with static image -->
-                            <img 
-                            class="img"
-                            class="hero"
-                            srcset=""
-                            src="/assets/images/product-images/collection-hero.jpg"
-                            loading="lazy"
-                            alt=""
-                            >
-
-
-                      </div>
-                  </div>
-              </div>
           </div>
-      
-          <div class="hero-textbox">
-              <div class="textbox-background ">
-                  <div class="top-Text">Shopping</div>
-                  <h1 class="main-Text">Vor-Tech Keyboards</h1>
-                  <!-- <p class="lower-Text">Limited Edition</p> -->
-                      <!-- <div class="textbox-button">
-                          <button aria-label="Shop Collection" class="shop-Collection--Btn">
-                              <a href="/main-product.html" class="link-padding">View Now</a>
-                          </button>
-                      </div>   -->
-              </div>
-          </div> 
-          </div>
-          <div class="transparent-bg"></div>
       </div>
 
 
@@ -1095,7 +1080,6 @@
 
         </div>
 
-
       <footer class="mobile-Filterbox-Footer">
         <div class="container-fluid">
           
@@ -1129,16 +1113,17 @@
 
 
 
-  <!-- Desktop Button -->
+          <!-- Desktop Button -->
           <div class="form-check form-switch desktop-Switch">
             <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
               <label class="btn toggle-filters" for="btn-check"> 
-                <div id="filterbox-Toggler">Hide Filters</div> 
+                <!-- <div id="filterbox-Toggler">Hide Filters</div>  -->
+                <img src="/assets/images/icons/6351904_filter_filtering_filters_funnel_sort_icon.svg" class="filter-Icon" alt="Toggle Filter Box">
               </label>
           </div>
 
 
-  <!-- Mobile Button -->
+          <!-- Mobile Button -->
           
           <div class="form-check form-switch mobile-Switch">
             <!-- <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off"> -->
@@ -1146,22 +1131,23 @@
                 <!-- <div id="filterbox-Toggler">Show Filters</div>  -->
                 <a class="btn toggle-filters" data-bs-toggle="offcanvas" href="#MobileFilterBox" role="button" aria-controls="offcanvasExample">
                   Show Filters
+                  
                 </a>
               <!-- </label> -->
           </div>
-  <!-- 
+            <!-- 
 
 
-          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#MobileFilterBox" aria-controls="offcanvasExample">
-            Show Filters
-          </button>
-  -->
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#MobileFilterBox" aria-controls="offcanvasExample">
+                      Show Filters
+                    </button>
+            -->
 
 
 
 
         </div>
-
+          <!-- Center For Results Header w/ # of items in results -->
           <div class="results-Title col">
             <div class="collection-Name">
               <div class="collection-Name">Vortech <div class="product-Amount"> (254)</div></div>
@@ -1170,17 +1156,16 @@
         
         <div class="sort-Menu col">
           <div class="product-Sorting">
-            <span class="sort-Menu-Title">Sort By:</span>
+            <!-- <span class="sort-Menu-Title">Sort By:</span> -->
             <div>
-            <select class="form-select" aria-label="Default select example">
-              <option selected>Select</option>
-              <option>Price: Low-High</option>
-              <option>Price: High-Low</option>
-              <option>Newest to Oldest</option>
-              <option>Oldest to Newest</option>
-
-            </select>
-          </div>
+                <select class="form-select" aria-label="Default select example">
+                <option selected>Sort by: Select</option>
+                <option>Sort by: Price: Low-High</option>
+                <option>Sort by: Price: High-Low</option>
+                <option>Sort by: Newest to Oldest</option>
+                <option>Sort by: Oldest to Newest</option>
+                </select>
+            </div>
             <!-- <div class="dropdown">
               <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                 Price: Low-High
@@ -1193,7 +1178,7 @@
               </ul>
             </div> -->
           </div>
-        </div>
+    </div>
       </div>
     </div>
 
@@ -1228,7 +1213,7 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                           data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
                           aria-controls="panelsStayOpen-collapseOne">
-                          Series <div class="active-filters anchor-link-color"> (4)</div>
+                          Series <div class="active-filters anchor-link-color"> (3)</div>
                         </button>
                       </h2>
                       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
@@ -1238,26 +1223,20 @@
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
-                              Sunset
+                              VOR-TECH XN-Q1
                             </label>
                           </div>
 
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                             <label class="form-check-label" for="flexCheckChecked">
-                              Dawn
+                              VOR-TECH XN-Q2
                             </label>
                           </div>
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                             <label class="form-check-label" for="flexCheckChecked">
-                              Frenzy
-                            </label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                            <label class="form-check-label" for="flexCheckChecked">
-                              Saturn
+                              VOR-TECH XN-Q3
                             </label>
                           </div>
                           <!-- End of Body -->
@@ -1272,7 +1251,7 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                           data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                           aria-controls="panelsStayOpen-collapseTwo">
-                          Connection <div class="active-filters anchor-link-color"> (2)</div>
+                          Build Type<div class="active-filters anchor-link-color"> (2)</div>
                         </button>
                       </h2>
                       <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show"
@@ -1282,14 +1261,14 @@
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
-                              Wireless
+                              Pre-Built
                             </label>
                           </div>
 
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                             <label class="form-check-label" for="flexCheckChecked">
-                              USB Connection
+                              Built
                             </label>
                           </div>
                           <!-- End of Body -->
@@ -1334,6 +1313,84 @@
                         </div>
                       </div>
                     </div>
+
+
+
+
+
+<!-- Filter: Color -->
+<div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+        aria-controls="panelsStayOpen-collapseOne">
+        Case Color <div class="active-filters anchor-link-color"> (6)</div>
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+      aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <!-- Beginning of Body -->
+       
+
+       
+      
+        <div class="form-check">
+            <div class="color-filter-container">
+                <ul class="color-List">
+                    <li class="color-List--Item">
+
+                        <input class="product-filters__value-input" type="checkbox" id="filter_input_vuukdi0id3i" data-facet-filter="tags:ColorFam-Black" data-display-name="Black" data-active="0">
+                        
+                        <label class="product-filters__value-label product-filters__value-label--swatch" for="filter_input_vuukdi0id3i">
+                            Black
+                            <span style="background-color: rgb(19, 19, 19);" class="product-filters__value-swatch"></span>
+                            <span style="display: none" class="product-filters__value-count">354</span>
+                        </label>
+                      
+                    
+                    </li>
+                    <li class="color-List--Item">
+
+                        <input class="product-filters__value-input" type="checkbox" id="filter_input_vuukdi0id3i" data-facet-filter="tags:ColorFam-Black" data-display-name="Black" data-active="0">
+                        
+                        <label class="product-filters__value-label product-filters__value-label--swatch" for="filter_input_vuukdi0id3i">
+                            Space Grey
+                            <span style="background-color: rgb(75, 75, 75);" class="product-filters__value-swatch"></span>
+                            <span style="display: none" class="product-filters__value-count">354</span>
+                        </label>
+                      
+                    
+                    </li>
+                    <li class="color-List--Item">
+
+                        <input class="product-filters__value-input" type="checkbox" id="filter_input_vuukdi0id3i" data-facet-filter="tags:ColorFam-Black" data-display-name="Black" data-active="0">
+                        
+                        <label class="product-filters__value-label product-filters__value-label--swatch" for="filter_input_vuukdi0id3i">
+                            White
+                            <span style="background-color: rgb(255, 255, 255);" class="product-filters__value-swatch"></span>
+                            <span style="display: none" class="product-filters__value-count">354</span>
+                        </label>
+                      
+                    
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+        </div>
+        <!-- End of Body -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+
 
 
 

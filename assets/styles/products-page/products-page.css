@@ -38,7 +38,7 @@
   .results-Header--onLoad{
     transform: translateY(0px);
     transition: transform 0.3s ease-in-out 0s;
-    top: 90px;
+    top: 89px;
   }
   /* .scrollUp{
     top: 104px;
@@ -76,11 +76,12 @@
   }
   .prod-Results-Header .hide-Filters .form-check{
     padding-left:5em;
+    align-self: center;
   }
   .prod-Results-Header .hide-Filters .toggle-filters{
     border: 2px solid black;
-    padding: 0.2em 1.4em;
-    border-radius: 25px;
+    padding: 5px 10px;
+    border-radius: 10px;
     font-weight: 600;
   }
   
@@ -105,6 +106,8 @@
   
   /* Poducts Results Sorting */
   .prod-Results-Header .form-select{
+    width: 75%;
+    font-size: 16px;
     padding: 0 2em 0  0 ;
     color: rgb(0, 0, 0);
   }
@@ -146,7 +149,7 @@
   /*---------- Filter Side -----------*/
   
   .products-Section .filter-box{
-    width: 350px;
+    width: 450px;
     overflow-y: auto;
     background: rgb(248, 248, 248);
   }
@@ -175,7 +178,7 @@
     text-transform: uppercase;
   }
   .active-filters{
-    color: rgb(255, 174, 0);
+    /* color: rgb(255, 174, 0); */
     font-weight: 400;
     margin-left: 10px;
   }
@@ -233,7 +236,7 @@
   .products-Section .accordion-button{
     color: rgb(0, 0, 0);
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     border: none;
   } 
   .products-Section .accordion-collapse{
@@ -370,6 +373,7 @@
     text-align: center;
     padding: 2em 0em;
   }
+
   
   
   
@@ -385,4 +389,65 @@
   
   
   
+  
+
+
+
+.filter-Icon{
+  width: 100%;
+  height: 20px;
+}
+
+
+
+
+
+
+
+  
+  
+        /* +++++++++    Media Queries     ++++++++++ */
+  
+  /* Large devices (desktops, less than 1200px) */
+  @media (max-width: 1210.98px) { 
+    .results-Header--onLoad {
+      top: 57px;
+    }
+  }
+  
+  
+  /* Medium devices (tablets, less than 992px) */
+  @media (max-width: 991.98px) {
+    .prod-Results-Header .product-Sorting {
+      display: block;
+    }
+  }
+  
+  
+  
+  @media (max-width: 767.98px) {
+    .prod-Results-Header .hide-Filters .form-check {
+      padding-left: 2em;
+    }
+    .prod-Results-Header .results-Title {
+      font-size: 17px;
+    }
+    .prod-Results-Header .form-select {
+      width: 100%;
+      font-size: 15px;
+      height: 30px;
+      align-self: center;
+    }
+  }
+  
+  
+
+
+  @media (max-width: 575.98px) {
+    .prod-Results-Header .collection-Name {
+      display: block;
+      text-align: center;
+      line-height: 20px;
+    }
+  }
   

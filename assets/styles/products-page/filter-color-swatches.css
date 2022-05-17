@@ -1,0 +1,59 @@
+.color-List {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .color-List--Item{
+    display: flex;
+    align-items: center;
+    display: flex;
+    height: 65px;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+  .product-filters__value-input {
+    height: 1px;
+    opacity: .01;
+    position: absolute;
+    width: 1px;
+  }
+.product-filters__value-label--swatch {
+    cursor: pointer;
+    font: 400 13px/21px proxima-nova,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: .25px;
+    align-items: center;
+    color: #000;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 0;
+  }
+
+/* .product-filters__value-swatch {
+    height: 35px;
+    margin-bottom: 4px;
+    position: inherit;
+    width: 35px;
+  } */
+  .product-filters__value-swatch {
+    background-position: 50%;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 1px #949494;
+    color: transparent;
+    display: inline-block;
+    height: 30px;
+    vertical-align: bottom;
+    width: 30px;
+    bottom: 0;
+    box-shadow: none;
+    left: 0;
+    margin: auto 0;
+      margin-bottom: auto;
+    /* position: absolute; */
+    top: 0;
+  }
+
+  .product-filters__value-swatch:hover, :active + .product-filters__value-swatch, :focus + .product-filters__value-swatch, [focus-within] + .product-filters__value-swatch {
+    box-shadow: inset 0 0 0 1px #949494,0 0 0 1px #fff,0 0 0 2px #cacaca;
+  }
