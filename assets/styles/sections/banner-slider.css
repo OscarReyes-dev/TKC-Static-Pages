@@ -5,6 +5,9 @@
     width: 100%;
     overflow: hidden;
 }
+.hide-Banner{
+    display: none;
+}
   
 
 #carousel-section article {

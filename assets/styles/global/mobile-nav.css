@@ -105,8 +105,8 @@
         overflow : hidden;
         bottom : 0;
         z-index : 6;
-        height : calc(100vh - 88px);
-        top : 88px;
+        height : calc(100vh - 58px);
+        top : 57px;
         position : fixed;
         transition : 0.3s ease-in-out;
         width : calc(100vw - 50px);
