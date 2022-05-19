@@ -13,7 +13,7 @@
 #carousel-section article {
     display: flex;
     width: 400%;
-    animation: bannermove 40s linear infinite;
+    animation: bannermove 50s linear infinite;
 }
   
 
