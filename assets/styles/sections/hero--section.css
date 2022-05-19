@@ -43,7 +43,7 @@
   }
   .hero-section .top-Text{
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
     text-decoration: underline dotted;
   }
@@ -54,7 +54,7 @@
   }
   .hero-section .lower-Text{
     font-weight: 500;
-    font-size: 35px;
+    font-size: 22px;
     color: white;
   }
 
@@ -81,38 +81,32 @@
   }
   .hero-section .overlay {
     width: 100%;
-    height: 90vh;
-    /* height: 750px; */
+    height: 650px;
     background: #00000057;
     position: absolute;
     top: 0;
     bottom: 0;
     z-index: 1;
-    /* background: ; */
     background: linear-gradient(70deg, rgb(0, 0, 0) 15%, rgba(255,255,255,0) 70%);
   }
 
 
   .hero-section .hero-grid .hero-style2 .hero-style3 .hero-image-style .img{
     width: 100%;
-    /* height: 750px;   */
-    height: 90vh;
+    height: 650px;
     position: relative;
     object-fit: cover;
   }
   .hero-section .flickity-viewport{
-    height: 90vh!important;
-      /* height: 750px!important; */
+    height: 650px!important;
   }
 
     /* Slide Show */
-
     .product-image{
       position: absolute;
       left: 0px;
       transform: translateX(0%);
-      height: 90vh;
-      /* height: 750px; */
+      height: 650px;
       width: 100%;
       object-fit: cover;
     }
@@ -199,6 +193,11 @@
       font-size: 25px;
       color: white;
     }
+    /* .hero-section .main-Text {
+      font-weight: 800;
+      font-size: 45px;
+      color: white;
+    } */
     /* .hero-section .hero-grid .hero-style2 .hero-style3 .hero-image-style .img{
       height: 550px;
     }

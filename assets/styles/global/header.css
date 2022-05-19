@@ -23,7 +23,9 @@
     #header {
     z-index : 7;
     background-color : #fff;
-    position : fixed;
+    /* position : fixed; */
+    position: sticky;
+    top: 0;
     width : 100%;
     }
     .nav-up {

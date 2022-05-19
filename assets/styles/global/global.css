@@ -1,6 +1,6 @@
 /* Shopify Theme.Liquid Styling */
 .content-for-layout{
-	margin-top: 89px;
+	/* margin-top: 89px; */
 }
 .content-for-layout:focus{
 	outline: none;
@@ -12,7 +12,7 @@
 }
 @media (max-width: 1210.98px) {
 	.content-for-layout{
-		margin-top: 57px;
+		/* margin-top: 57px; */
 	}	 
 	.display--Flex{
 		display: block;

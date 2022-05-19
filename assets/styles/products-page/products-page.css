@@ -90,7 +90,7 @@
   
    /* Products Results Header Center Title */
   .prod-Results-Header .results-Title{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     padding: 0em 0em 0em 0em;
     align-self: center;
@@ -108,7 +108,7 @@
   .prod-Results-Header .form-select{
     width: 100%;
     font-size: 16px;
-    padding: 0 2em 0  0 ;
+    padding: 0 2em 0  1em ;
     color: rgb(0, 0, 0);
     height: 40px;
     border: black 2px solid;
