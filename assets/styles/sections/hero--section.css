@@ -96,6 +96,7 @@
     height: 650px;
     position: relative;
     object-fit: cover;
+    object-position: left;
   }
   .hero-section .flickity-viewport{
     height: 650px!important;

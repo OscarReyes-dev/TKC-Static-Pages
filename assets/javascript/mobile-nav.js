@@ -9,7 +9,6 @@ hamburger.addEventListener("click", function() {
   mobileMenu.classList.toggle("open-menu");
   freezeBody.classList.toggle("opened-menu");
   banner.classList.toggle('hide-Banner');
-
 });
 
 
