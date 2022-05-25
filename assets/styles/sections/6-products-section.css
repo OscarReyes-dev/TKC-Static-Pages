@@ -106,7 +106,7 @@
     /* max-width: 100%; */
   }
   .products-collection .product {
-    margin-bottom: 3em;
+    margin-bottom: 6em;
   }
   .products-collection  .product-block {
     text-decoration: none;
@@ -159,7 +159,7 @@
   }
 
   .item--description{
-    padding: 20px 0px 30px 0px;
+    padding: 20px 0px 10px 0px;
     max-height: 10rem;
     overflow-y: hidden;
     text-align: center ;
@@ -304,11 +304,9 @@
 
     
         /*---------- Six Products Section -----------*/
-    .products-collection .container{
-      /* padding: 0rem; */
-    }
+
     .products-collection .product {
-      margin-bottom: 3em;
+      margin-bottom: 5em;
   }
     .products-collection .section-title{
       padding: 0 10px 3em 10px;
