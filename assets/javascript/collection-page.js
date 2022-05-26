@@ -9,11 +9,11 @@ filterBoxToggler.addEventListener("click", function() {
 
 
 
-    if (x.innerHTML === "Hide Filters") {
-      x.innerHTML = "Show Filters";
-    } else {
-      x.innerHTML = "Hide Filters";
-    }
+    // if (x.innerHTML === "Hide Filters") {
+    //   x.innerHTML = "Show Filters";
+    // } else {
+    //   x.innerHTML = "Hide Filters";
+    // }
 
   });
 

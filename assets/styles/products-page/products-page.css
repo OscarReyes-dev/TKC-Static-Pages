@@ -303,9 +303,7 @@
   
   /*---------- Mobile Filter Box -----------*/
   
-  .prod-Results-Header .hide-Filters .mobile-Switch{
-    display: none;
-  }
+
   
   .mobile-Filterbox #MobileFilterBox{
     width: 100%;
@@ -475,6 +473,7 @@
     }
     .prod-Results-Header .collection-Name {
       justify-content: right;
+      justify-content: flex-end;
       padding-right: 1em;
       /* display: flex; */
     }
@@ -484,6 +483,31 @@
     .products-Section .filter-box.hide-Filter--Box {
       display: block;
     }
+
+
+
+
+
+    .products-Section .filter-box {
+      width: 100%;
+      z-index: 10;
+      position: fixed;
+      /* overflow-y: auto;
+      background: rgb(248, 248, 248); */
+    }
+    .products-Section .filterbox-onLoad {
+      top: 0px;
+      height: calc(100vh - 0px);
+      /* position: sticky; */
+    }
+
+
+
+
+
+
+
+
   }
   
   

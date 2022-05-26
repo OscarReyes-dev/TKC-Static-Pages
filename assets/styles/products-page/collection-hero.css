@@ -7,7 +7,7 @@
     display: grid;
     column-gap: 0px;
     grid-template-columns: auto repeat(24, 1fr) auto;
-    grid-template-rows: 9em 8em 1fr 1.5em auto 2em 1em;
+    grid-template-rows: 15em 8em 1fr 1.5em auto 2em 1em;
     height: auto;
     box-sizing: border-box;
     margin: 0px;
@@ -247,33 +247,19 @@
     .collection-hero .hero-grid {
       grid-template-rows: 13em 2em 1fr 1.5em auto 0em;
     }
-    /* .collection-hero .hero-grid .hero-style2 .hero-style3 .hero-image-style .img{
-      height: 450px;
-    }
-    .product-image{
-    height: 450px;
-    }
-    .collection-hero .overlay {
-      height: 450px;
-    }
-    .collection-hero .flickity-viewport{
-      height: 450px;
-    }
-    
-    
-    */
+
     .collection-hero .hero-grid .hero-style2 .hero-style3 .hero-image-style .img{
-      height: 45vh;
+      height: 40vh;
     }
     .product-image{
-    height: 45vh;
+    height: 40vh;
     } 
     .collection-hero .overlay {
       background: linear-gradient(70deg, rgb(0, 0, 0) 15%, rgba(255,255,255,0) 70%);
-      height: 45vh;
+      height: 40vh;
     }
     .collection-hero .flickity-viewport{
-      height: 45vh!important;
+      height: 40vh!important;
     }
     
     .collection-hero .hero-grid .hero-textbox{
