@@ -245,7 +245,7 @@
     
     /*---------- Hero Section -----------*/
     .collection-hero .hero-grid {
-      grid-template-rows: 13em 2em 1fr 1.5em auto 0em;
+      grid-template-rows: 11em 2em 1fr 1.5em auto 0em;
     }
 
     .collection-hero .hero-grid .hero-style2 .hero-style3 .hero-image-style .img{
