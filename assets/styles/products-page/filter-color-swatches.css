@@ -57,3 +57,13 @@
   .product-filters__value-swatch:hover, :active + .product-filters__value-swatch, :focus + .product-filters__value-swatch, [focus-within] + .product-filters__value-swatch {
     box-shadow: inset 0 0 0 1px #949494,0 0 0 1px #fff,0 0 0 2px #cacaca;
   }
+
+ .product-filters__value-input:checked + label .product-filters__value-swatch, [data-facet-title="Colors"] .product-filters__value-input:checked + label .product-filters__value-swatch {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.565 13.286a2.272 2.272 0 01-1.775-.893L.283 9.544a1.143 1.143 0 011.715-1.509l2.348 2.674a.287.287 0 00.42.009l9.258-9.648a1.144 1.144 0 011.657 1.575L6.307 12.51a2.219 2.219 0 01-1.742.775z' fill='%23fff'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    box-shadow: none !important;
+  }
+
+  .product-filters__value-input[data-display-name="White"]:checked + label .product-filters__value-swatch, [data-facet-title="Colors"] .product-filters__value-input[data-display-name="White"]:checked + label .product-filters__value-swatch {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.565 13.286a2.272 2.272 0 01-1.775-.893L.283 9.544a1.143 1.143 0 011.715-1.509l2.348 2.674a.287.287 0 00.42.009l9.258-9.648a1.144 1.144 0 011.657 1.575L6.307 12.51a2.219 2.219 0 01-1.742.775z' fill='%23272727'/%3E%3C/svg%3E");
+  }

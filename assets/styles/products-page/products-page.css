@@ -80,9 +80,11 @@
   }
   .prod-Results-Header .hide-Filters .toggle-filters{
     border: 2px solid black;
+    font-size: 12px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: 600;
+    box-shadow: -5px 4px 0 0;
   }
   
   
@@ -168,8 +170,8 @@
     position: sticky;
   }
   .filterbox--scrollDown{
-    top: 66px;
-    height: calc(100vh - 66px);
+    top: 71px;
+    height: calc(100vh - 71px);
     position: sticky;
   }
   .products-Section .filter-box.hide-Filter--Box{
@@ -185,6 +187,16 @@
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+  }
+
+
+  .products-Section .clear-Filters--BTN{
+    background: black;
+    color: white;
+    width: 70%;
+    border-radius: 15px;
+    border: none;
+    margin-top: 1em;
   }
   .active-filters{
     /* color: rgb(255, 174, 0); */
@@ -207,6 +219,13 @@
     top: 0px;
     background: rgb(255, 255, 255);
     height: auto;
+  }
+
+
+
+  .products-Section .filter-column .form-check-label{
+    color:#272727;
+    font-size: 13px;
   }
   
   /*---------- Products Grid -----------*/
