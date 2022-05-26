@@ -1082,84 +1082,58 @@
 
       <footer class="mobile-Filterbox-Footer">
         <div class="container-fluid">
-          
           <div class="row">
             <div class=" hide-Filter-Btn--Col col-12">
-              <button class="footer-Btn close-Btn" class="btn toggle-filters" data-bs-toggle="offcanvas" href="#MobileFilterBox" role="button" aria-controls="offcanvasExample">
-                Hide Filters
-              </button>
+                <button class="footer-Btn close-Btn" class="btn toggle-filters" data-bs-toggle="offcanvas" href="#MobileFilterBox" role="button" aria-controls="offcanvasExample">
+                    Hide Filters
+                </button>
             </div>
           </div>
-
-
         </div>
       </footer>
-
-
     </div>
-  </section>
+</section>
 
 
-  <section class="prod-Results-Header results-Header--onLoad">
-
+<!-- Collection Header -->
+<section class="prod-Results-Header results-Header--onLoad">
     <div class="prod-Results-Container container-fluid">
-      <div class="prod-Results-Row row">
-        <div class="hide-Filters col">
-          <!-- <label class="form-check-label" for="flexSwitchCheckChecked">Show Filters</label>
-          <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-          </div> -->
+        <div class="prod-Results-Row row">
 
-
-
-
-          <!-- Hide/Show Button -->
-          <div class="form-check form-switch desktop-Switch">
-            <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
-              <label class="btn toggle-filters" for="btn-check"> 
-                <img src="/assets/images/icons/6351904_filter_filtering_filters_funnel_sort_icon.svg" class="filter-Icon" alt="Toggle Filter Box">
-                <!-- <div id="filterbox-Toggler">Hide Filters</div>  -->
-              </label>
-          </div>
-          </div>
-
-
-          <!-- Center For Results Header w/ # of items in results -->
-          <div class="results-Title col">
-            <!-- <div class="collection-Name"> -->
-              <div class="collection-Name">VOR-TECH <div class="product-Amount"> (254)</div></div>
-            <!-- </div> -->
-          </div>
-        
-        <div class="sort-Menu col">
-          <div class="product-Sorting">
-            <!-- <span class="sort-Menu-Title">Sort By:</span> -->
-            <div>
-                <select class="form-select" aria-label="Default select example">deefedee
-                <option selected>Sort by: Select</option>
-                <option>Sort by: Price: Low-High</option>
-                <option>Sort by: Price: High-Low</option>
-                <option>Sort by: Newest to Oldest</option>
-                <option>Sort by: Oldest to Newest</option>
-                </select>
+            <!-- Hide/Show Button -->
+            <div class="hide-Filters col">
+                <div class="form-check form-switch desktop-Switch">
+                    <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
+                    <label class="btn toggle-filters" for="btn-check"> 
+                        <img src="/assets/images/icons/6351904_filter_filtering_filters_funnel_sort_icon.svg" class="filter-Icon" alt="Toggle Filter Box">
+                        <!-- <div id="filterbox-Toggler">Hide Filters</div>  -->
+                    </label>
+                </div>
             </div>
-            <!-- <div class="dropdown">
-              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Price: Low-High
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Price: Low-High</a></li>
-                <li><a class="dropdown-item" href="#">Price: High-Low</a></li>
-                <li><a class="dropdown-item" href="#">Newest to Oldest</a></li>
-                <li><a class="dropdown-item" href="#">Oldest to Newest</a></li>
-              </ul>
-            </div> -->
-          </div>
-    </div>
-      </div>
-    </div>
 
-  </section>
+            <!-- Center For Results Header w/ # of items in results -->
+            <div class="results-Title col">
+                <div class="collection-Name">VOR-TECH <div class="product-Amount"> (254)</div></div>
+            
+            </div>
+            
+            <!-- Sort By -->
+            <div class="sort-Menu col">
+            <div class="product-Sorting">
+                <div>
+                    <select class="form-select" aria-label="Default select example">deefedee
+                    <option selected>Sort by: Select</option>
+                    <option>Sort by: Price: Low-High</option>
+                    <option>Sort by: Price: High-Low</option>
+                    <option>Sort by: Newest to Oldest</option>
+                    <option>Sort by: Oldest to Newest</option>
+                    </select>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
 
   <section class="products-Section">
   <div class="products-Wall">
@@ -1173,10 +1147,24 @@
               <div class="filter-column">
                 <div class="filter-Accordion">
                   <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="filter-Section--Header">
+                        <div>
+                            <div class="hide-Filters col">
+                                <div class="form-check form-switch desktop-Switch">
+                                    <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
+                                    <label class="btn toggle-filters close-filters" for="btn-check"> 
+                                        <img src="/assets/images/icons/6351904_filter_filtering_filters_funnel_sort_icon.svg" class="filter-Icon" alt="Toggle Filter Box">
+                                        <!-- <div id="filterbox-Toggler">Hide Filters</div>  -->
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Filter Header  -->
                     <div class="filters-Header-Container">
                       <div class="filters-Header">
-                        Filters
+                        Filter <div class="sort-Header">& Sort</div>
                       </div>
                       <div class="clear-filters">
                         <div>
@@ -1186,10 +1174,40 @@
                         </div>
                       </div>
                     </div>
-                    <!-- Chosen Filters -->
-                    <div>
+                    
 
-                    </div>
+                    <!-- SORT BY -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+  
+                          <!-- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseOne"> -->
+                            Sort By 
+                          <!-- </button> -->
+                          <!-- <select class="form-select" aria-label="Default select example">deefedee
+                            <option selected>Sort by: Select</option>
+                            <option>Sort by: Price: Low-High</option>
+                            <option>Sort by: Price: High-Low</option>
+                            <option>Sort by: Newest to Oldest</option>
+                            <option>Sort by: Oldest to Newest</option>
+                            </select> -->
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                          aria-labelledby="panelsStayOpen-headingOne">
+                          <div class="accordion-body">
+                            <!-- Beginning of Body -->
+                            <select class="form-select" aria-label="Default select example">deefedee
+                                <option selected>Sort by: </option>
+                                <option>Sort by: Price: Low-High</option>
+                                <option>Sort by: Price: High-Low</option>
+                                <option>Sort by: Newest to Oldest</option>
+                                <option>Sort by: Oldest to Newest</option>
+                                </select>
+                            <!-- End of Body -->
+                          </div>
+                        </div>
+                      </div>
 
 
                     <!-- Filter: Collection Variants -->

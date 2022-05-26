@@ -1,7 +1,7 @@
 var filterBoxToggler = document.querySelector(".toggle-filters");
 var filterBox = document.querySelector(".filter-box");
 
-var x = document.getElementById("filterbox-Toggler");
+// var x = document.getElementById("filterbox-Toggler");
 
 filterBoxToggler.addEventListener("click", function() {
     filterBox.classList.toggle("hide-Filter--Box");
@@ -14,6 +14,21 @@ filterBoxToggler.addEventListener("click", function() {
     // } else {
     //   x.innerHTML = "Hide Filters";
     // }
+
+  });
+
+
+
+
+
+  var filterBoxCloseToggler = document.querySelector(".close-filters");
+var filterBox = document.querySelector(".filter-box");
+
+filterBoxCloseToggler.addEventListener("click", function() {
+    filterBox.classList.toggle("hide-Filter--Box");
+
+
+
 
   });
 
