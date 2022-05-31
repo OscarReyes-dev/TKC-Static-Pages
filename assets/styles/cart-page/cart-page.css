@@ -9,7 +9,6 @@
 
 
 .title.title--primary{
-    /* font-size: 30px; */
     color: rgb(0, 0, 0);
 }
 
@@ -36,9 +35,9 @@
 
 
 /* Styling when cart is empty */
-.cart__warnings{
+/* .cart__warnings{
 
-}
+} */
 
 .cart__empty-text{
     color: rgb(71, 71, 71);;
@@ -54,7 +53,7 @@
 
 
 .cart-Header--Container{
-    padding: 1em 0em;
+    padding: .5em 0em;
     border-top: 1px solid rgb(231, 231, 231);
     border-bottom: 1px solid rgb(231, 231, 231);
 }
