@@ -40,10 +40,18 @@
 
 
 @media (max-width: 767.98px) {
+
+  .breadcrumbs {
+    font-size: 16px;
+    padding: 2em 0em 1em;
+  }
+
   .breadcrumbs ol {
     list-style-type: none;
     margin: 0;
     padding-left: 1em;
   }
   
+
+
 }
