@@ -27,7 +27,7 @@
   .hero-section .hero-grid .hero-textbox .textbox-background{
     background: rgba(255, 255, 255, 0.849);
     padding: 2em 2em 3em;
-    border-radius: 25px;
+    border-radius: 15px;
   }
   .hero-section .hero-grid .hero-style2 .hero-style3 .hero-image-style{
     font-size: 0px;
@@ -51,6 +51,7 @@
     font-weight: 800;
     font-size: 55px;
     color: rgb(0, 0, 0);
+    margin-bottom: 0em;
   }
   .hero-section .lower-Text{
     font-weight: 500;
@@ -151,6 +152,15 @@
       grid-area: 2 / 3 / 5 / 17;
     
     }
+    .hero-section .top-Text {
+      font-size: 20px;
+    }
+    .hero-section .main-Text {
+      font-size: 45px;
+    }
+    .hero-section .textbox-button .link-padding {
+      padding: 15px 30px;
+    }
   }
     
     
@@ -177,54 +187,32 @@
     /* Small devices (landscape phones, less than 768px) */
     @media (max-width: 767.98px) {
     
-    /*---------- Hero Section -----------*/
-    .hero-section .hero-grid{
-      grid-template-rows: 13em 4em 1fr 1.5em auto 0em;
-    }
-    .hero-section .top-Text{
-      /* color: white; */
-      font-size: 22px;
-      /* font-weight: 900; */
-      /* text-decoration: underline dotted; */
-    }
-    .hero-section .main-Text{
-      /* font-weight: 800; */
-      font-size: 35px;
-      /* color: white; */
-    }
-    .hero-section .lower-Text{
-      /* font-weight: 500; */
-      font-size: 20px;
-      /* color: white; */
-    }
-    /* .hero-section .main-Text {
-      font-weight: 800;
-      font-size: 45px;
-      color: white;
-    } */
+      /*---------- Hero Section -----------*/
+      .hero-section .hero-grid{
+        grid-template-rows: 13em 4em 1fr 1.5em auto 0em;
+      }
+      .hero-section .top-Text{
+        font-size: 20px;
+      }
+      .hero-section .main-Text{
+        font-size: 35px;
+      }
+      .hero-section .lower-Text{
+        font-size: 18px;
+      }
 
-    .hero-section .hero-grid .hero-style2 .hero-style3 .hero-image-style .img{
+      .hero-section .hero-grid .hero-style2 .hero-style3 .hero-image-style .img{
+        height: 550px;
+      }
+      .product-image{
       height: 550px;
-    }
-    .product-image{
-    height: 550px;
-    } 
-    .hero-section .overlay {
-      height: 550px;
-    }
-    .hero-section .flickity-viewport{
-      height: 550px!important;
-    }
-   
-   /* .hero-section .hero-grid .hero-style2 .hero-style3 .hero-image-style .img{
-      height: 70vh;
-    }
-    .product-image{
-    height: 70vh;
-    } */
-
-
-
+      } 
+      .hero-section .overlay {
+        height: 550px;
+      }
+      .hero-section .flickity-viewport{
+        height: 550px!important;
+      }
     
     }
     
@@ -239,7 +227,7 @@
     .hero-section .hero-grid .hero-textbox .textbox-background {
     
         padding: 1em 1em 1em;
-        border-radius: 20px;
+        /* border-radius: 20px; */
     }
     
 

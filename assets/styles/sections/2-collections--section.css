@@ -15,17 +15,27 @@
     width: 100%;
 }
 .two-collections .grid-container .grid-item img{
-    width:100% !important;
-    border-radius: 25px !important;
-    object-fit: cover !important;
-    height: 500px !important;
+    width:100% ;
+    border-radius: 20px ;
+    object-fit: cover ;
+    height: 500px ;
 }
 .two-collections .grid-container  .left-img{
     grid-area: 1/1;
 }
 .two-collections .grid-container .left-text{
     grid-area: 2/1;
-    padding: 20px 0px 20px 0px;
+
+    background: #fff;
+    top: -25px;
+    position: relative;
+    width: 90%;
+    padding: 2em;
+    border-radius: 20px;
+    left: 20px;
+    border: 1px solid black;
+
+
 }
 .two-collections .grid-container .right-img{
     grid-area: 1/2;
@@ -36,7 +46,7 @@
 }
 .two-collections button{
     padding: 16px 40px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .textbox-button{
@@ -54,7 +64,6 @@
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 2.5em;
-    /* font-weight: 400; */
 }
 
 
@@ -70,15 +79,27 @@
 @media (max-width: 991.98px) {
 
 /*---------- Two Collections Section -----------*/
-.two-collections {
-    /* padding: 4em 2em; */
-}
+
 .two-collections .grid-container{
     display: contents;
 }
 .two-collections .grid-container .collection {
     padding-top: 30px;
 }
+.two-collections button {
+    padding: 16px 30px;
+  }
+  .two-collections button a{
+    font-size: 13px;
+  }
+  .two-collections .image-Text {
+    font-size: 14px;
+    margin-bottom: 1.5em;
+}
+.two-collections .grid-container .left-text{
+    padding: 1.5em;
+}
+
 
 }
 
@@ -86,18 +107,18 @@
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
 
-
-
 /*---------- Two Collections Section -----------*/
 .two-collections{
     padding: 4em 1em;
 }
 .two-collections .grid-container .grid-item img{
-    height: 300px !important;
-    }
-.two-collections .image-Title{
-    font-size: 25px;
+    height: 300px ;
 }
+
+.two-collections .image-Title{
+    font-size: 20px;
+}
+
 
 }
 
@@ -105,6 +126,13 @@
     .two-collections{
         padding: 3em 1em;
     }
+    .two-collections .grid-container .grid-item img {
+        height: 250px ;
+    }
+    .two-collections .grid-container .left-text{
+       padding: 1em;
+    }
+
 
 }
 

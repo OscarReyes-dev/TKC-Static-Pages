@@ -734,9 +734,9 @@
     transform : translateY(0);
     transition : transform 0.3s 0s ease-in-out;
   }
-  header .top-row .item-3 .icons .icons-list .shopping-Bag .numberofItems {
+  /* header .top-row .item-3 .icons .icons-list .shopping-Bag .numberofItems {
     top: 14px;
-  }
+  } */
   .opened-menu {
     overflow : hidden;
   }
