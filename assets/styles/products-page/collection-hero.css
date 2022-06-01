@@ -25,16 +25,16 @@
     height: 100%;
   } 
   .collection-hero .hero-grid .hero-textbox .textbox-background{
-    /* background: rgba(255, 255, 255, 0.849); */
+    background: rgba(255, 255, 255, 0.849);
     padding: 2em 2em 3em;
-    border-radius: 25px;
+    border-radius: 15px;
   }
   .collection-hero .hero-grid .hero-style2 .hero-style3 .hero-image-style{
     font-size: 0px;
     width: 100%;
   }
   .collection-hero .hero-grid .hero-textbox{
-    grid-area: 2 / 3 / 5 / 20;
+    grid-area: 2 / 3 / 5 / 13;
     opacity: 1;
     align-self: center;
     min-width: 21em;
@@ -42,20 +42,15 @@
     z-index: 3;
   }
   .collection-hero .top-Text{
-    color: white;
-    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
     font-weight: 900;
     text-decoration: underline dotted;
   }
   .collection-hero .main-Text{
     font-weight: 800;
-    font-size: 45px;
-    color: white;
-  }
-  .collection-hero .lower-Text{
-    font-weight: 500;
     font-size: 35px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
 
@@ -167,7 +162,7 @@
       grid-template-rows: 12em 4em 1fr 1.5em auto 2em;
     }
     .collection-hero .hero-grid .hero-textbox{
-      grid-area: 2 / 2 / 5 / 23;
+      grid-area: 2 / 3 / 5 / 15;
       min-width: 12em;
     }
     .collection-hero .hero-grid .hero-textbox .textbox-background{
@@ -187,40 +182,16 @@
       grid-template-rows: 16em 4em 1fr 1.5em auto 0em;
     }
     .collection-hero .top-Text{
-      color: white;
-      font-size: 30px;
+      /* color: white; */
+      /* font-size: 30px; */
       font-weight: 900;
       text-decoration: underline dotted;
     }
     .collection-hero .main-Text{
       font-weight: 800;
-      font-size: 45px;
-      color: white;
+      /* font-size: 45px; */
+      /* color: white; */
     }
-    .collection-hero .lower-Text{
-      font-weight: 500;
-      font-size: 25px;
-      color: white;
-    }
-    /* .collection-hero .hero-grid .hero-style2 .hero-style3 .hero-image-style .img{
-      height: 550px;
-    }
-    .product-image{
-    height: 550px;
-    } 
-    .collection-hero .overlay {
-      height: 550px;
-    }
-    .collection-hero .flickity-viewport{
-      height: 550px!important;
-    }
-    */
-   /* .collection-hero .hero-grid .hero-style2 .hero-style3 .hero-image-style .img{
-      height: 70vh;
-    }
-    .product-image{
-    height: 70vh;
-    } */
 
 
 
@@ -270,7 +241,7 @@
     padding: 1em 1em 2em;
     }
     .collection-hero .top-Text{
-      color: white;
+      /* color: white; */
       font-size: 18px;
       font-weight: 900;
       text-decoration: underline dotted;
@@ -278,12 +249,7 @@
     .collection-hero .main-Text{
       font-weight: 800;
       font-size: 30px;
-      color: white;
-    }
-    .collection-hero .lower-Text{
-      font-weight: 500;
-      font-size: 16px;
-      color: white;
+      /* color: white; */
     }
 
 

@@ -1,13 +1,13 @@
-// focusSearchInput = function getFocus(){
-//     document.getElementById("search-Results-Input").focus();
-//   }
+focusSearchInput = function getFocus(){
+    document.getElementById("search-Results-Input").focus();
+  }
   
 
 
 
-  // window.onload = function() {
-  //   document.getElementById("search-Results-Input").focus();
-  // }
+  window.onload = function() {
+    document.getElementById("search-Results-Input").focus();
+  }
 
 
   // console.log("Hellop")

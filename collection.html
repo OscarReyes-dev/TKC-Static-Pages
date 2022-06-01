@@ -145,8 +145,8 @@
 
                 <div class="input-Row row">
                     <div class="col-12 input-Column">
-                      <predictive-search class="search-modal__form" data-loading-text="{{ 'accessibility.loading' | t }}">
-                        <form action="{{ routes.search_url }}" method="get" role="search" class="search">
+                      <predictive-search class="search-modal__form" data-loading-text="">
+                        <form action="" method="get" role="search" class="search" >
                           <div class="input-box">
                             <input 
                               class="form-control form-control--Style" 
@@ -154,7 +154,7 @@
                               type="search"
                               name="q"
                               value=""
-                              placeholder=""
+                              placeholder="Search Store"
                             >
                             <input type="hidden" name="options[prefix]" value="last">
                           </div>
@@ -865,7 +865,7 @@
     <div class="content-for-layout">
 
             <!-- Collection Hero -->
-            <div class="collection-hero">
+            <!-- <div class="collection-hero">
                 <div class="hero-grid">
                     <div class="hero-style2">
                         <div class="hero-style3">
@@ -891,7 +891,7 @@
                         </div>
                     </div> 
                 </div>
-            </div>
+            </div> -->
 
 
 
@@ -912,6 +912,8 @@
             <!-- Collection Page Header -->
             <div class="prod-Results-Header results-Header--onLoad">
                 <div class="prod-Results-Container container-fluid">
+                  
+                    <!-- Product Filter Button and Collection -->
                     <div class="prod-Results-Row row">
 
                         <!-- Hide/Show Button -->
@@ -920,7 +922,7 @@
                                 <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
                                 <label class="toggle-filters" for="btn-check"> 
                                     <img src="/assets/images/icons/6351904_filter_filtering_filters_funnel_sort_icon.svg" class="filter-Icon" alt="Toggle Filter Box">
-                                    <!-- <div id="filterbox-Toggler">Hide Filters</div>  -->
+                                    
                                 </label>
                             </div>
                         </div>
