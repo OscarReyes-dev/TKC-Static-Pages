@@ -73,12 +73,47 @@ padding: .5em 0;
   position: relative;
   width: 28px;
 }
+
+
+
+/* Main Product Case Color Swatches */
+.main-Product .product-Variant--Link::before {
+  box-shadow: inset 0 0 1px 1px #000,inset 0 0 0 4px #fff;
+}
+.main-Product .product-Variant--Link::before {
+  border-radius: 100%;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: .2s ease;
+  width: 100%;
+  /* z-index: 1; */
+}
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .main-Product .product-Variant--Color{
   border: 1px solid transparent;
   border-radius: 100%;
-  height: 26px;
+  height: 20px;
   transition: .2s ease;
-  width: 26px;
+  width: 20px;
 }
 
 .main-Product .shop-Collection--Btn{
@@ -182,7 +217,9 @@ font-weight: 600;
     box-sizing: border-box; 
   }
   
-  
+  .flickity-viewport{
+    touch-action: pinch-zoom!important;
+  }
   .main-Product .carousel {
     background: #f1f1f1;
     margin-bottom: 40px;
