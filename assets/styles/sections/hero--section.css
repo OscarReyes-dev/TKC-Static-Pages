@@ -7,7 +7,7 @@
     display: grid;
     column-gap: 0px;
     grid-template-columns: auto repeat(24, 1fr) auto;
-    grid-template-rows: 20em 8em 1fr 1.5em auto 2em 0em;
+    grid-template-rows: 16em 8em 1fr 1.5em auto 2em 0em;
     height: auto;
     box-sizing: border-box;
     margin: 0px;
@@ -25,7 +25,7 @@
     height: 100%;
   } 
   .hero-section .hero-grid .hero-textbox .textbox-background{
-    /* background: rgba(255, 255, 255, 0.849); */
+    background: rgba(255, 255, 255, 0.849);
     padding: 2em 2em 3em;
     border-radius: 25px;
   }
@@ -34,7 +34,7 @@
     width: 100%;
   }
   .hero-section .hero-grid .hero-textbox{
-    grid-area: 2 / 3 / 5 / 20;
+    grid-area: 2 / 3 / 5 / 14;
     opacity: 1;
     align-self: center;
     min-width: 21em;
@@ -42,20 +42,20 @@
     z-index: 3;
   }
   .hero-section .top-Text{
-    color: white;
-    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
     font-weight: 900;
     text-decoration: underline dotted;
   }
   .hero-section .main-Text{
     font-weight: 800;
     font-size: 55px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   .hero-section .lower-Text{
     font-weight: 500;
     font-size: 22px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
 
@@ -96,7 +96,7 @@
     height: 650px;
     position: relative;
     object-fit: cover;
-    object-position: left;
+    object-position: right;
   }
   .hero-section .flickity-viewport{
     height: 650px!important;
@@ -147,8 +147,11 @@
     .hero-section .hero-grid .hero-textbox .textbox-background{
       padding: 2em 2em 2em;
     }
+    .hero-section .hero-grid .hero-textbox {
+      grid-area: 2 / 3 / 5 / 17;
     
     }
+  }
     
     
     /* Medium devices (tablets, less than 992px) */
@@ -156,10 +159,10 @@
 
     /*---------- Hero Section -----------*/
     .hero-section .hero-grid{
-      grid-template-rows: 20em 4em 1fr 1.5em auto 2em;
+      grid-template-rows: 17em 4em 1fr 1.5em auto 2em;
     }
     .hero-section .hero-grid .hero-textbox{
-      grid-area: 2 / 2 / 5 / 23;
+      grid-area: 2 / 3 / 5 / 20;
       min-width: 12em;
     }
     .hero-section .hero-grid .hero-textbox .textbox-background{
@@ -176,23 +179,23 @@
     
     /*---------- Hero Section -----------*/
     .hero-section .hero-grid{
-      grid-template-rows: 16em 4em 1fr 1.5em auto 0em;
+      grid-template-rows: 13em 4em 1fr 1.5em auto 0em;
     }
     .hero-section .top-Text{
-      color: white;
-      font-size: 30px;
-      font-weight: 900;
-      text-decoration: underline dotted;
+      /* color: white; */
+      font-size: 22px;
+      /* font-weight: 900; */
+      /* text-decoration: underline dotted; */
     }
     .hero-section .main-Text{
-      font-weight: 800;
-      font-size: 45px;
-      color: white;
+      /* font-weight: 800; */
+      font-size: 35px;
+      /* color: white; */
     }
     .hero-section .lower-Text{
-      font-weight: 500;
-      font-size: 25px;
-      color: white;
+      /* font-weight: 500; */
+      font-size: 20px;
+      /* color: white; */
     }
     /* .hero-section .main-Text {
       font-weight: 800;
@@ -282,20 +285,20 @@
     padding: 1em 1em 2em;
     }
     .hero-section .top-Text{
-      color: white;
+      /* color: white; */
       font-size: 18px;
-      font-weight: 900;
-      text-decoration: underline dotted;
+      /* font-weight: 900; */
+      /* text-decoration: underline dotted; */
     }
     .hero-section .main-Text{
-      font-weight: 800;
+      /* font-weight: 800; */
       font-size: 30px;
-      color: white;
+      /* color: white; */
     }
     .hero-section .lower-Text{
-      font-weight: 500;
+      /* font-weight: 500; */
       font-size: 16px;
-      color: white;
+      /* color: white; */
     }
 
 

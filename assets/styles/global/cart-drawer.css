@@ -221,7 +221,7 @@
       background-color: black;
       border-radius: 10px;
       height: 2em;
-      width: 8em;
+      width: 7em;
     }
     .quantity-Icon{
       font-size: 12px;
@@ -721,7 +721,7 @@ cart-remove-button .icon-remove {
     }
 
     
-    }
+  }
     
     @media (max-width: 991.98px) {
     .header--margin {
