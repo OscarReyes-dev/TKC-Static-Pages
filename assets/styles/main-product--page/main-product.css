@@ -218,8 +218,8 @@ font-weight: 600;
   }
   
   .flickity-viewport{
-    touch-action: double-tap-zoom!important;
     /* touch-action: pinch-zoom!important; */
+    touch-action: auto!important;
   }
   .main-Product .carousel {
     background: #f1f1f1;
