@@ -25,7 +25,8 @@
     height: 100%;
   } 
   .hero-section .hero-grid .hero-textbox .textbox-background{
-    background: rgba(255, 255, 255, 0.849);
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid white;
     padding: 2em 2em 3em;
     border-radius: 15px;
   }
@@ -42,21 +43,21 @@
     z-index: 3;
   }
   .hero-section .top-Text{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 25px;
     font-weight: 900;
-    text-decoration: underline dotted;
+    /* text-decoration: underline dotted; */
   }
   .hero-section .main-Text{
     font-weight: 800;
     font-size: 55px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin-bottom: 0em;
   }
   .hero-section .lower-Text{
     font-weight: 500;
     font-size: 22px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
 
 
@@ -72,6 +73,13 @@
   .hero-section .textbox-button button{
     padding: 12px 0px;
     border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: ease-in-out .2s;
+  }
+  .hero-section .textbox-button button:hover{
+    box-shadow: -5px 5px white; 
+    /* transition: ease-in-out .2s; */
   }
   .hero-section .textbox-button .link-padding{
     padding: 15px 40px;
