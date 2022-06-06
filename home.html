@@ -46,12 +46,34 @@
         <link rel="stylesheet" href="/assets/styles/sections/banner-slider.css">
         <!-- About Us Section CSS -->
         <link rel="stylesheet" href="/assets/styles/sections/aboutUs-section.css">
+        <!-- Project Navigation -->
+        <link rel="stylesheet" href="/assets/styles/global/project-nav.css">
         
     <title>TKC Static Template</title>
 
 </head>
 <body>
 
+
+
+
+
+    <button class="project-Navigation btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Project Pages Links</button>
+
+<div class="project-Navigation--Offcanvas offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header">
+    <!-- <div class="offcanvas-title" id="offcanvasBottomLabel">Page Links</div> -->
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+    <ul>
+        <li><a href="/home.html">Home Page</a></li>
+        <li><a href="/collection.html">Collection Page</a></li>
+        <li><a href="/main-product.html">Product Page</a></li>
+        <li><a href="/cart.html">Cart Page</a></li>
+    </ul>
+  </div>
+</div>
 
 
 <!-- Mobile Nav -->
@@ -373,7 +395,7 @@
                             <div class="row cart-Product">
                                 <div class="col-4">
                                     <a href="">
-                                        <img class="cart-Product--Image" src="assets/images/product-images/np1.jpg"  alt=""/>
+                                        <img class="cart-Product--Image" src="assets/images/product-images/dark-keyboards/proda1.jpg"  alt=""/>
                                     </a>
                                 </div>
                                 <div class="cart-Product--Info col-8">
@@ -434,7 +456,7 @@
                             <div class="row cart-Product">
                                 <div class="col-4">
                                     <a href="">
-                                        <img class="cart-Product--Image" src="assets/images/product-images/np1.jpg"  alt=""/>
+                                        <img class="cart-Product--Image" src="assets/images/product-images/light-keyboards/prodlighta1.jpg"  alt=""/>
                                     </a>
                                 </div>
                                 <div class="cart-Product--Info col-8">
@@ -495,7 +517,7 @@
                             <div class="row cart-Product">
                                 <div class="col-4">
                                     <a href="">
-                                        <img class="cart-Product--Image" src="assets/images/product-images/np1.jpg"  alt=""/>
+                                        <img class="cart-Product--Image" src="assets/images/product-images/light-keyboards/prodlightb1.jpg"  alt=""/>
                                     </a>
                                 </div>
                                 <div class="cart-Product--Info col-8">
@@ -556,7 +578,7 @@
                             <div class="row cart-Product">
                                 <div class="col-4">
                                     <a href="">
-                                        <img class="cart-Product--Image" src="assets/images/product-images/np1.jpg"  alt=""/>
+                                        <img class="cart-Product--Image" src="assets/images/product-images/dark-keyboards/prodb1.jpg"  alt=""/>
                                     </a>
                                 </div>
                                 <div class="cart-Product--Info col-8">
@@ -644,7 +666,7 @@
                 <div class="checkout-Btn">
                     <div class="centered--button">
                     <div class="textbox-button">
-                        <a href="">
+                        <a href="/cart.html">
                         <button aria-label="View Cart" class="add-To-Cart--Btn col"  name="View Cart">
                             VIEW BAG
                         </button>

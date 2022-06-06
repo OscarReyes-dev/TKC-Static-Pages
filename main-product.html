@@ -40,13 +40,30 @@
         <link rel="stylesheet" href="/assets/styles/global/breadcrumb.css">
         <!-- 6 Products Section CSS -->
         <link rel="stylesheet" href="/assets/styles/sections/6-products-section.css">
+        <!-- Project Navigation -->
+        <link rel="stylesheet" href="/assets/styles/global/project-nav.css">
 
 
     <title>TKC | Looper Sunset</title>
 </head>
 <body>
 
+    <button class="project-Navigation btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Project Pages Links</button>
 
+<div class="project-Navigation--Offcanvas offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header">
+    <!-- <div class="offcanvas-title" id="offcanvasBottomLabel">Page Links</div> -->
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+    <ul>
+        <li><a href="/home.html">Home Page</a></li>
+        <li><a href="/collection.html">Collection Page</a></li>
+        <li><a href="/main-product.html">Product Page</a></li>
+        <li><a href="/cart.html">Cart Page</a></li>
+    </ul>
+  </div>
+</div>
 
 <!-- Mobile Nav -->
 <div class="sidebar-navigation" class="open-menu">
@@ -871,11 +888,11 @@
               </li>
           
               <li>
-                <a href="" aria-current="page">Looper</a>
+                <a href="" aria-current="page">Looper Keyboards</a>
               </li>
 
               <li>
-                <a href="" aria-current="page">WR-11</a>
+                <a href="" class="active" aria-current="page">WR-11</a>
               </li>
           
             </ol>

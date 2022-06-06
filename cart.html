@@ -35,10 +35,28 @@
         <link rel="stylesheet" href="/assets/styles/cart-page/component-cart.css">
         <link rel="stylesheet" href="/assets/styles/cart-page/component-totals.css">
         <link rel="stylesheet" href="/assets/styles/cart-page/component-cart-items.css">
+        <!-- Project Navigation -->
+        <link rel="stylesheet" href="/assets/styles/global/project-nav.css">
     <title>TKC | Cart</title>
 
 </head>
 <body>
+    <button class="project-Navigation btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Project Pages Links</button>
+
+    <div class="project-Navigation--Offcanvas offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+      <div class="offcanvas-header">
+        <!-- <div class="offcanvas-title" id="offcanvasBottomLabel">Page Links</div> -->
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body small">
+        <ul>
+            <li><a href="/home.html">Home Page</a></li>
+            <li><a href="/collection.html">Collection Page</a></li>
+            <li><a href="/main-product.html">Product Page</a></li>
+            <li><a href="/cart.html">Cart Page</a></li>
+        </ul>
+      </div>
+    </div>
 
 
 
@@ -885,6 +903,396 @@
                                             <div class="product-Image col col-sm-4">
                                                 <img class="cart-item__image"
                                                     src="/assets/images/product-images/new-prod1.jpg"
+                                                    alt=""
+                                                    width="175"
+                                                >
+                                            </div>
+
+                
+                                            <div class="product-Description col">
+                                                <p class="caption-with-letter-spacing light">Looper</p>
+                                                <a href="" class="cart-item__name break">XN-657 Sunset River</a>
+                                                <div class="product-Price">
+                                                    $349.00
+                                                </div>
+                                                <dl>
+                                                    <div class="product-option">
+                                                        <dt class="dt-Text">Color: </dt>
+                                                        <dd class="dd-Text">Black</dd>
+                                                    </div>
+                                                </dl>
+                                            </div>
+
+                
+                                            <div class="product-Quantity hide-Quantity col">
+
+                                                <label class="medium-down">
+                                                    Quantity:
+                                                </label>
+                                
+                                                <quantity-input class="quantity">
+                                                
+                                                    <button class="quantity__button minus-Btn no-js-hidden" name="minus" type="button">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon   icon-minus" fill="none" viewBox="0 0 10 2">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z" fill="currentColor"/>
+                                                        </svg>
+                                                    </button>
+                                                    
+                                                        <input class="quantity__input"
+                                                            type="number"
+                                                            name="updates[]"
+                                                            value="1"
+                                                            min="0"
+                                                            aria-label="{{ 'products.product.quantity.input_label' | t: product: item.product.title | escape }}"
+                                                            id="Quantity-{{ item.index | plus: 1 }}"
+                                                            data-index="{{ item.index | plus: 1 }}"
+                                                        >
+                                                
+                                                    <button class="quantity__button add-Btn no-js-hidden" name="plus" type="button">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon   icon-plus" fill="none" viewBox="0 0 10 10">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor"/>
+                                                            </svg>
+                                                    </button>
+                                            
+                                                </quantity-input>
+
+                                            </div>
+                
+
+                                            <div class="product-Final--Price  col">
+                
+                                                <div class=" hide-Price cart-item__price-wrapper medium-up">
+
+                                                    <dl class="cart-item__discounted-prices">
+                                                        <dd class="price price--end">
+                                                            $349.00
+                                                        </dd>
+                                                    </dl>
+                                                </div>
+                
+                                                <cart-remove-button class="cart-Remove--Btn" id="Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}">
+                                                    <a href="" class="button button--tertiary" aria-label="">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" aria-hidden="true" focusable="false" role="presentation" class="icon icon-remove">
+                                                            <path d="M14 3h-3.53a3.07 3.07 0 00-.6-1.65C9.44.82 8.8.5 8 .5s-1.44.32-1.87.85A3.06 3.06 0 005.53 3H2a.5.5 0 000 1h1.25v10c0 .28.22.5.5.5h8.5a.5.5 0 00.5-.5V4H14a.5.5 0 000-1zM6.91 1.98c.23-.29.58-.48 1.09-.48s.85.19 1.09.48c.2.24.3.6.36 1.02h-2.9c.05-.42.17-.78.36-1.02zm4.84 11.52h-7.5V4h7.5v9.5z" fill="currentColor"/>
+                                                            <path d="M6.55 5.25a.5.5 0 00-.5.5v6a.5.5 0 001 0v-6a.5.5 0 00-.5-.5zM9.45 5.25a.5.5 0 00-.5.5v6a.5.5 0 001 0v-6a.5.5 0 00-.5-.5z" fill="currentColor"/>
+                                                        </svg>
+                                                    </a>
+                                                </cart-remove-button>
+                                                
+                                            </div>
+
+
+                                            <div class="mobile-Cart--Row">
+                
+                                                <div class="product-Quantity col">
+                                                    <label class="medium-down" for="Quantity-{{ item.index | plus: 1 }}">
+                                                        Quantity:
+                                                    </label>
+                                    
+                                                    <quantity-input class="quantity">
+                                                    
+                                                        <button class="quantity__button minus-Btn no-js-hidden" name="minus" type="button">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon   icon-minus" fill="none" viewBox="0 0 10 2">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z" fill="currentColor"/>
+                                                            </svg>
+                                                        </button>
+                                                        
+                                                        <input class="quantity__input"
+                                                            type="number"
+                                                            name="updates[]"
+                                                            value="1"
+                                                            min="0"
+                                                            aria-label=""
+                                                        >
+                                                    
+                                                        <button class="quantity__button add-Btn no-js-hidden" name="plus" type="button">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon   icon-plus" fill="none" viewBox="0 0 10 10">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor"/>
+                                                                </svg>
+                                                        </button>
+                                                
+                                                    </quantity-input>
+                                                </div>
+                
+                                                <div class="product-Final--Price ">
+                                                
+                
+                                                        <div class="cart-item__price-wrapper medium-up">
+                                                            <span class="price price--end">
+                                                            $349.00
+                                                            </span>
+                                                        </div>
+                                                </div>
+                                                
+                                            </div>
+                
+                                        </div>
+                                        <div class="item-Row row">
+            
+
+                                            <div class="product-Image col col-sm-4">
+                                                <img class="cart-item__image"
+                                                    src="/assets/images/product-images/dark-keyboards/proda1.jpg"
+                                                    alt=""
+                                                    width="175"
+                                                >
+                                            </div>
+
+                
+                                            <div class="product-Description col">
+                                                <p class="caption-with-letter-spacing light">Looper</p>
+                                                <a href="" class="cart-item__name break">XN-657 Sunset River</a>
+                                                <div class="product-Price">
+                                                    $349.00
+                                                </div>
+                                                <dl>
+                                                    <div class="product-option">
+                                                        <dt class="dt-Text">Color: </dt>
+                                                        <dd class="dd-Text">Black</dd>
+                                                    </div>
+                                                </dl>
+                                            </div>
+
+                
+                                            <div class="product-Quantity hide-Quantity col">
+
+                                                <label class="medium-down">
+                                                    Quantity:
+                                                </label>
+                                
+                                                <quantity-input class="quantity">
+                                                
+                                                    <button class="quantity__button minus-Btn no-js-hidden" name="minus" type="button">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon   icon-minus" fill="none" viewBox="0 0 10 2">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z" fill="currentColor"/>
+                                                        </svg>
+                                                    </button>
+                                                    
+                                                        <input class="quantity__input"
+                                                            type="number"
+                                                            name="updates[]"
+                                                            value="1"
+                                                            min="0"
+                                                            aria-label="{{ 'products.product.quantity.input_label' | t: product: item.product.title | escape }}"
+                                                            id="Quantity-{{ item.index | plus: 1 }}"
+                                                            data-index="{{ item.index | plus: 1 }}"
+                                                        >
+                                                
+                                                    <button class="quantity__button add-Btn no-js-hidden" name="plus" type="button">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon   icon-plus" fill="none" viewBox="0 0 10 10">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor"/>
+                                                            </svg>
+                                                    </button>
+                                            
+                                                </quantity-input>
+
+                                            </div>
+                
+
+                                            <div class="product-Final--Price  col">
+                
+                                                <div class=" hide-Price cart-item__price-wrapper medium-up">
+
+                                                    <dl class="cart-item__discounted-prices">
+                                                        <dd class="price price--end">
+                                                            $349.00
+                                                        </dd>
+                                                    </dl>
+                                                </div>
+                
+                                                <cart-remove-button class="cart-Remove--Btn" id="Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}">
+                                                    <a href="" class="button button--tertiary" aria-label="">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" aria-hidden="true" focusable="false" role="presentation" class="icon icon-remove">
+                                                            <path d="M14 3h-3.53a3.07 3.07 0 00-.6-1.65C9.44.82 8.8.5 8 .5s-1.44.32-1.87.85A3.06 3.06 0 005.53 3H2a.5.5 0 000 1h1.25v10c0 .28.22.5.5.5h8.5a.5.5 0 00.5-.5V4H14a.5.5 0 000-1zM6.91 1.98c.23-.29.58-.48 1.09-.48s.85.19 1.09.48c.2.24.3.6.36 1.02h-2.9c.05-.42.17-.78.36-1.02zm4.84 11.52h-7.5V4h7.5v9.5z" fill="currentColor"/>
+                                                            <path d="M6.55 5.25a.5.5 0 00-.5.5v6a.5.5 0 001 0v-6a.5.5 0 00-.5-.5zM9.45 5.25a.5.5 0 00-.5.5v6a.5.5 0 001 0v-6a.5.5 0 00-.5-.5z" fill="currentColor"/>
+                                                        </svg>
+                                                    </a>
+                                                </cart-remove-button>
+                                                
+                                            </div>
+
+
+                                            <div class="mobile-Cart--Row">
+                
+                                                <div class="product-Quantity col">
+                                                    <label class="medium-down" for="Quantity-{{ item.index | plus: 1 }}">
+                                                        Quantity:
+                                                    </label>
+                                    
+                                                    <quantity-input class="quantity">
+                                                    
+                                                        <button class="quantity__button minus-Btn no-js-hidden" name="minus" type="button">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon   icon-minus" fill="none" viewBox="0 0 10 2">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z" fill="currentColor"/>
+                                                            </svg>
+                                                        </button>
+                                                        
+                                                        <input class="quantity__input"
+                                                            type="number"
+                                                            name="updates[]"
+                                                            value="1"
+                                                            min="0"
+                                                            aria-label=""
+                                                        >
+                                                    
+                                                        <button class="quantity__button add-Btn no-js-hidden" name="plus" type="button">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon   icon-plus" fill="none" viewBox="0 0 10 10">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor"/>
+                                                                </svg>
+                                                        </button>
+                                                
+                                                    </quantity-input>
+                                                </div>
+                
+                                                <div class="product-Final--Price ">
+                                                
+                
+                                                        <div class="cart-item__price-wrapper medium-up">
+                                                            <span class="price price--end">
+                                                            $349.00
+                                                            </span>
+                                                        </div>
+                                                </div>
+                                                
+                                            </div>
+                
+                                        </div>
+                                        <div class="item-Row row">
+            
+
+                                            <div class="product-Image col col-sm-4">
+                                                <img class="cart-item__image"
+                                                    src="/assets/images/product-images/light-keyboards/prodlighta1.jpg"
+                                                    alt=""
+                                                    width="175"
+                                                >
+                                            </div>
+
+                
+                                            <div class="product-Description col">
+                                                <p class="caption-with-letter-spacing light">Looper</p>
+                                                <a href="" class="cart-item__name break">XN-657 Sunset River</a>
+                                                <div class="product-Price">
+                                                    $349.00
+                                                </div>
+                                                <dl>
+                                                    <div class="product-option">
+                                                        <dt class="dt-Text">Color: </dt>
+                                                        <dd class="dd-Text">Black</dd>
+                                                    </div>
+                                                </dl>
+                                            </div>
+
+                
+                                            <div class="product-Quantity hide-Quantity col">
+
+                                                <label class="medium-down">
+                                                    Quantity:
+                                                </label>
+                                
+                                                <quantity-input class="quantity">
+                                                
+                                                    <button class="quantity__button minus-Btn no-js-hidden" name="minus" type="button">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon   icon-minus" fill="none" viewBox="0 0 10 2">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z" fill="currentColor"/>
+                                                        </svg>
+                                                    </button>
+                                                    
+                                                        <input class="quantity__input"
+                                                            type="number"
+                                                            name="updates[]"
+                                                            value="1"
+                                                            min="0"
+                                                            aria-label="{{ 'products.product.quantity.input_label' | t: product: item.product.title | escape }}"
+                                                            id="Quantity-{{ item.index | plus: 1 }}"
+                                                            data-index="{{ item.index | plus: 1 }}"
+                                                        >
+                                                
+                                                    <button class="quantity__button add-Btn no-js-hidden" name="plus" type="button">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon   icon-plus" fill="none" viewBox="0 0 10 10">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor"/>
+                                                            </svg>
+                                                    </button>
+                                            
+                                                </quantity-input>
+
+                                            </div>
+                
+
+                                            <div class="product-Final--Price  col">
+                
+                                                <div class=" hide-Price cart-item__price-wrapper medium-up">
+
+                                                    <dl class="cart-item__discounted-prices">
+                                                        <dd class="price price--end">
+                                                            $349.00
+                                                        </dd>
+                                                    </dl>
+                                                </div>
+                
+                                                <cart-remove-button class="cart-Remove--Btn" id="Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}">
+                                                    <a href="" class="button button--tertiary" aria-label="">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" aria-hidden="true" focusable="false" role="presentation" class="icon icon-remove">
+                                                            <path d="M14 3h-3.53a3.07 3.07 0 00-.6-1.65C9.44.82 8.8.5 8 .5s-1.44.32-1.87.85A3.06 3.06 0 005.53 3H2a.5.5 0 000 1h1.25v10c0 .28.22.5.5.5h8.5a.5.5 0 00.5-.5V4H14a.5.5 0 000-1zM6.91 1.98c.23-.29.58-.48 1.09-.48s.85.19 1.09.48c.2.24.3.6.36 1.02h-2.9c.05-.42.17-.78.36-1.02zm4.84 11.52h-7.5V4h7.5v9.5z" fill="currentColor"/>
+                                                            <path d="M6.55 5.25a.5.5 0 00-.5.5v6a.5.5 0 001 0v-6a.5.5 0 00-.5-.5zM9.45 5.25a.5.5 0 00-.5.5v6a.5.5 0 001 0v-6a.5.5 0 00-.5-.5z" fill="currentColor"/>
+                                                        </svg>
+                                                    </a>
+                                                </cart-remove-button>
+                                                
+                                            </div>
+
+
+                                            <div class="mobile-Cart--Row">
+                
+                                                <div class="product-Quantity col">
+                                                    <label class="medium-down" for="Quantity-{{ item.index | plus: 1 }}">
+                                                        Quantity:
+                                                    </label>
+                                    
+                                                    <quantity-input class="quantity">
+                                                    
+                                                        <button class="quantity__button minus-Btn no-js-hidden" name="minus" type="button">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon   icon-minus" fill="none" viewBox="0 0 10 2">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z" fill="currentColor"/>
+                                                            </svg>
+                                                        </button>
+                                                        
+                                                        <input class="quantity__input"
+                                                            type="number"
+                                                            name="updates[]"
+                                                            value="1"
+                                                            min="0"
+                                                            aria-label=""
+                                                        >
+                                                    
+                                                        <button class="quantity__button add-Btn no-js-hidden" name="plus" type="button">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon   icon-plus" fill="none" viewBox="0 0 10 10">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor"/>
+                                                                </svg>
+                                                        </button>
+                                                
+                                                    </quantity-input>
+                                                </div>
+                
+                                                <div class="product-Final--Price ">
+                                                
+                
+                                                        <div class="cart-item__price-wrapper medium-up">
+                                                            <span class="price price--end">
+                                                            $349.00
+                                                            </span>
+                                                        </div>
+                                                </div>
+                                                
+                                            </div>
+                
+                                        </div>
+                                        <div class="item-Row row">
+            
+
+                                            <div class="product-Image col col-sm-4">
+                                                <img class="cart-item__image"
+                                                    src="/assets/images/product-images/dark-keyboards/prodb1.jpg"
                                                     alt=""
                                                     width="175"
                                                 >

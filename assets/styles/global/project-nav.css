@@ -1,0 +1,37 @@
+.project-Navigation{
+    background: rgba(241, 208, 22, 0.699);
+    width: 100%;
+    padding: 1em 2em 1em 2em;
+    /* border-radius: 20px; */
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    /* margin: 1em; */
+}
+.project-Navigation:hover{
+    background: rgb(241, 209, 22);
+    color: black;
+    text-decoration: underline;
+}
+.project-Navigation--Offcanvas{
+    background: rgb(241, 209, 22);
+    height: 100vh;
+
+
+}
+.project-Navigation--Offcanvas li{
+
+padding: 2em 1em;
+}
+.project-Navigation--Offcanvas a{
+color: black;
+font-size: 30px;
+font-weight: 900;
+
+
+}
+.project-Navigation--Offcanvas a:hover{
+    color: #000000;
+}
