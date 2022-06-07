@@ -1,14 +1,15 @@
 .project-Navigation{
-    background: rgba(241, 208, 22, 0.699);
-    width: 100%;
+    background: rgb(255, 218, 7);
+    width: 200px;
     padding: 1em 2em 1em 2em;
-    /* border-radius: 20px; */
+    border-radius: 15px 15px 0px 0px;
     position: fixed;
     z-index: 100;
     bottom: 0;
     color: rgb(0, 0, 0);
     font-weight: 800;
     /* margin: 1em; */
+    text-transform: uppercase;
 }
 .project-Navigation:hover{
     background: rgb(241, 209, 22);
@@ -34,4 +35,16 @@ font-weight: 900;
 }
 .project-Navigation--Offcanvas a:hover{
     color: #000000;
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .project-Navigation{
+        width: 200px;
+        padding: .5em 1.5em .5em 1.5em;
+        border-radius: 10px 10px 0px 0px;
+    }
 }
